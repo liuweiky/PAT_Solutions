@@ -6,9 +6,18 @@ public class Main {
 		int K = scanner.nextInt();
 		int[] f = new int[K];
 		int[] dp = new int[K];
+		boolean hasPositive = false;
 		for (int i = 0; i < K; i++) {
 			f[i] = scanner.nextInt();
+			if (f[i] >= 0)
+				hasPositive = true;
 		}
+		
+		if (!hasPositive) {
+			System.out.print("0 " + f[0] + " " + f[f.length - 1]);
+			return;
+		}
+		
 		dp[K-1] = f[K-1];
 		for (int i = K-2; i >= 0; i--) {
 			// dp: 从 i 出发的最大值
