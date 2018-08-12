@@ -55,6 +55,7 @@ class Poli {
 				if (items.get(i).coefficient == 0) {
 					items.remove(i);
 				}
+				break;
 			}
 		}
 		
@@ -69,7 +70,9 @@ class Poli {
 		Collections.sort(items);
 		for (PoliItem item : items) {
 			System.out.print(" " + item.exponent);
-			System.out.print(" " + item.coefficient);
+			// 输出精度控制，这里使用 String.format("%.1f", item.coefficient)
+			// 但是，使用 new DecimalFormat("#.#").format(item.coefficient) 时有很多测试点是错的
+			System.out.print(" " + String.format("%.1f", item.coefficient));
 		}
 	}
 }
