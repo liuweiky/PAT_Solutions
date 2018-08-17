@@ -18,38 +18,48 @@ public class Main {
 		for (int i = 0; i < m; i++) {
 			query[i] = scanner.next();
 		}
+		List<Student> copyListA = new ArrayList<Student>();
+		copyListA.addAll(list);
+		Collections.sort(copyListA, new AComparator());
+		
+		List<Student> copyListC = new ArrayList<Student>();
+		copyListC.addAll(list);
+		Collections.sort(copyListC, new CComparator());
+		
+		List<Student> copyListM = new ArrayList<Student>();
+		copyListM.addAll(list);
+		Collections.sort(copyListM, new MComparator());
+		
+		List<Student> copyListE = new ArrayList<Student>();
+		copyListE.addAll(list);
+		Collections.sort(copyListE, new EComparator());
+		
 		for (String q : query) {
 			boolean contain = false;
 			for (Student s : list) {
 				if (s.id.equals(q)) {
 					contain = true;
 					int[] order = new int[4];
-					List<Student> copyList = new ArrayList<Student>();
-					copyList.addAll(list);
-					Collections.sort(copyList, new AComparator());
 					for (int i = 0; i < n; i++) {
-						if (copyList.get(i).id.equals(q)) {
+						if (copyListA.get(i).id.equals(q)) {
 							order[0] = i + 1;
 							break;
 						}
 					}
-					Collections.sort(copyList, new CComparator());
 					for (int i = 0; i < n; i++) {
-						if (copyList.get(i).id.equals(q)) {
+						if (copyListC.get(i).id.equals(q)) {
 							order[1] = i + 1;
 							break;
 						}
 					}
-					Collections.sort(copyList, new MComparator());
 					for (int i = 0; i < n; i++) {
-						if (copyList.get(i).id.equals(q)) {
+						if (copyListM.get(i).id.equals(q)) {
 							order[2] = i + 1;
 							break;
 						}
 					}
-					Collections.sort(copyList, new EComparator());
 					for (int i = 0; i < n; i++) {
-						if (copyList.get(i).id.equals(q)) {
+						if (copyListE.get(i).id.equals(q)) {
 							order[3] = i + 1;
 							break;
 						}
