@@ -1,21 +1,27 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Main {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		int N = scanner.nextInt();
-		int M = scanner.nextInt();
-		int K = scanner.nextInt();
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String[] strings = br.readLine().split(" ");
+		int N = Integer.parseInt(strings[0]);
+		int M = Integer.parseInt(strings[1]);
+		int K = Integer.parseInt(strings[2]);
 		int[][] graph = new int[N+1][N+1];
 		for (int i = 0; i < M; i++) {
-			int s = scanner.nextInt();
-			int t = scanner.nextInt();
+			strings = br.readLine().split(" ");
+			int s = Integer.parseInt(strings[0]);
+			int t = Integer.parseInt(strings[1]);
 			graph[s][t] = 1;
 			graph[t][s] = 1;
 		}
 		int[] concern = new int[K];
+		strings = br.readLine().split(" ");
 		for (int i = 0; i < K; i++) {
-			concern[i] = scanner.nextInt();
+			concern[i] = Integer.parseInt(strings[i]);
 		}
 		for (int c : concern) {
 			int[] visit = new int[N+1];
