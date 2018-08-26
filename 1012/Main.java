@@ -40,27 +40,59 @@ public class Main {
 				if (s.id.equals(q)) {
 					contain = true;
 					int[] order = new int[4];
+					int frontScore = -1;
+					int equCount = 0;
 					for (int i = 0; i < n; i++) {
+						if (frontScore == copyListA.get(i).A) {
+							equCount += 1;
+						} else {
+							frontScore = copyListA.get(i).A;
+							equCount = 0;
+						}
 						if (copyListA.get(i).id.equals(q)) {
-							order[0] = i + 1;
+							order[0] = i + 1 - equCount;
 							break;
 						}
 					}
+					frontScore = -1;
+					equCount = 0;
 					for (int i = 0; i < n; i++) {
+						if (frontScore == copyListC.get(i).C) {
+							equCount += 1;
+						} else {
+							frontScore = copyListC.get(i).C;
+							equCount = 0;
+						}
 						if (copyListC.get(i).id.equals(q)) {
-							order[1] = i + 1;
+							order[1] = i + 1 - equCount;
 							break;
 						}
 					}
+					frontScore = -1;
+					equCount = 0;
 					for (int i = 0; i < n; i++) {
+						if (frontScore == copyListM.get(i).M) {
+							equCount += 1;
+						} else {
+							frontScore = copyListM.get(i).M;
+							equCount = 0;
+						}
 						if (copyListM.get(i).id.equals(q)) {
-							order[2] = i + 1;
+							order[2] = i + 1 - equCount;
 							break;
 						}
 					}
+					frontScore = -1;
+					equCount = 0;
 					for (int i = 0; i < n; i++) {
+						if (frontScore == copyListE.get(i).E) {
+							equCount += 1;
+						} else {
+							frontScore = copyListE.get(i).E;
+							equCount = 0;
+						}
 						if (copyListE.get(i).id.equals(q)) {
-							order[3] = i + 1;
+							order[3] = i + 1 - equCount;
 							break;
 						}
 					}
