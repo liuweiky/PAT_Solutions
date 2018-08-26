@@ -7,11 +7,6 @@ public class Main {
 		int M = scanner.nextInt();
 		int K = scanner.nextInt();
 		int[][] graph = new int[N+1][N+1];
-		for (int i = 0; i <= N; i++) {
-			for (int j = 0; j <= N; j++) {
-				graph[i][j] = 0;
-			}
-		}
 		for (int i = 0; i < M; i++) {
 			int s = scanner.nextInt();
 			int t = scanner.nextInt();
@@ -24,9 +19,6 @@ public class Main {
 		}
 		for (int c : concern) {
 			int[] visit = new int[N+1];
-			for (int i = 0; i <= N; i++) {
-				visit[i] = 0;
-			}
 			visit[c] = 1;
 			int component = 0;	// 连通分量数目
 			for (int i = 1; i <= N; i++) {
