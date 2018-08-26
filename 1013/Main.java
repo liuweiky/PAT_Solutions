@@ -33,18 +33,39 @@ public class Main {
 				g[c][i] = 0;
 				g[i][c] = 0;
 			}
-			int count = 0;
+			
+			int[] visit = new int[N+1];
 			for (int i = 0; i <= N; i++) {
-				for (int j = 0; j <= N; j++) {
-					if (g[i][j] == 1)
-						count++;
+				visit[i] = 0;
+			}
+			int component = 0;
+			while (hasUnvisited(visit, N)) {
+				for (int i = 1; i <= N; i++) {
+					if (visit[i] == 0) {
+						component++;
+						dfs(i, g, visit, N);
+						break;
+					}
 				}
 			}
-			int d = N - 2 - count / 2;
-			if (d < 0)
-				System.out.println(0);
-			else
-				System.out.println(d);
+			System.out.println(component - 1 - 1);
 		}
+	}
+	
+	public static void dfs(int v, int[][] g, int[] visit, int N) {
+		visit[v] = 1;
+		for (int i = 1; i <= N; i++) {
+			if (g[v][i] == 1 && visit[i] == 0) {
+				dfs(i, g, visit, N);
+			}
+		}
+	}
+	
+	public static boolean hasUnvisited(int[] visit, int N) {
+		for (int i = 1; i <= N; i++) {
+			if (visit[i] == 0)
+				return true;
+		}
+		return false;
 	}
 }
