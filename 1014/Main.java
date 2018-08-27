@@ -25,21 +25,21 @@ public class Main {
 		
 		Map<Integer, String> queryMap = new HashMap<Integer, String>();
 		
-		Queue<Customer>[] qs = new LinkedList[M];
-		for (int i = 0; i < M; i++)
+		Queue<Customer>[] qs = new LinkedList[N];
+		for (int i = 0; i < N; i++)
 			qs[i] = new LinkedList<Customer>();
 		
-		int[] endTime = new int[M];
+		int[] endTime = new int[N];
 		for (int i = 0; i < K; i++) {
 			Customer customer = customers.get(i);
 			int minQIndex = 0;
-			for (int j = 1; j < M; j++) {
+			for (int j = 1; j < N; j++) {
 				if (qs[minQIndex].size() > qs[j].size())
 					minQIndex = j;
 			}
-			if (qs[minQIndex].size() == N) {
+			if (qs[minQIndex].size() == M) {
 				int minEndIndex = 0;
-				for (int j = 1; j < M; j++) {
+				for (int j = 1; j < N; j++) {
 					if (endTime[minEndIndex] + qs[minEndIndex].peek().processingTime > endTime[j] + qs[j].peek().processingTime)
 						minEndIndex = j;
 				}
