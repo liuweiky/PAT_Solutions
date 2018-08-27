@@ -23,7 +23,7 @@ public class Main {
 		for (int i = 0; i < Q; i++)
 			query.add(scanner.nextInt());
 		
-		Map<Integer, String> queryMap = new HashMap<Integer, String> ();
+		Map<Integer, String> queryMap = new HashMap<Integer, String>();
 		
 		Queue<Customer>[] qs = new LinkedList[M];
 		for (int i = 0; i < M; i++)
@@ -54,7 +54,7 @@ public class Main {
 				int realTime = 8 * 60 + endTime[minQIndex];
 				for (Customer c : qs[minQIndex])
 					realTime += c.processingTime;
-				if (realTime > 17 * 60)
+				if (realTime - ((List<Customer>)qs[minQIndex]).get(qs[minQIndex].size() - 1).processingTime >= 17 * 60)
 					queryMap.put(i + 1, "Sorry");
 				else {
 					int hour = realTime / 60;
