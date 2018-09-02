@@ -18,6 +18,13 @@ void decimal2base()
 int main()
 {
     scanf("%lld %lld", &N, &b);
+
+    if (N == 0)
+    {
+        printf("Yes\n0");
+        return 0;
+    }
+
     decimal2base();
 
     bool flag = true;
