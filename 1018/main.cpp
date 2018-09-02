@@ -47,7 +47,7 @@ void GeneratePath(int v, int target, vector<int> p)
     if (v == target)
         paths.push_back(p);
     for (int i = 0; i <= N; i++)
-        if (dis[v] == dis[i] + graph[i][v])
+        if (graph[i][v] > 0 && dis[v] == dis[i] + graph[i][v])
         {
             p.push_back(i);
             GeneratePath(i, target, p);
