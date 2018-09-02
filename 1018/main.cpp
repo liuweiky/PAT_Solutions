@@ -45,7 +45,10 @@ void dijkstra(int v)
 void GeneratePath(int v, int target, vector<int> p)
 {
     if (v == target)
+    {
         paths.push_back(p);
+        return;
+    }
     for (int i = 0; i <= N; i++)
         if (graph[i][v] > 0 && dis[v] == dis[i] + graph[i][v])
         {
