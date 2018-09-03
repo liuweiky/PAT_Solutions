@@ -3,6 +3,7 @@
 #include <vector>
 #include <algorithm>
 #include <sstream>
+#include <iomanip>
 
 using namespace std;
 
@@ -127,7 +128,7 @@ int main()
         }
         sort(results.begin(), results.end());
         for (vector<int>::iterator it = results.begin(); it != results.end(); it++)
-            cout << (*it) << endl;
+            cout << setfill('0') << setw(7) << (*it) << endl;
     }
     return 0;
 }
