@@ -19,8 +19,8 @@ void DoubleNum()
     int carry = 0;
     for (int i = 0; i < num_len; i++)
     {
-        int t = number[i] * 2;
-        d_number[i] = (t % 10) + carry;
+        int t = number[i] * 2  + carry;
+        d_number[i] = t % 10;
         carry = t / 10;
     }
     d_number[num_len] = carry;
