@@ -1,10 +1,9 @@
 #include <cstdio>
-#include <vector>
 #include <algorithm>
 
 using namespace std;
 
-vector<int> S;
+int S[320000];
 
 int main()
 {
@@ -16,7 +15,7 @@ int main()
     {
         int t;
         scanf("%d", &t);
-        S.push_back(t);
+        S[i] = t;
     }
 
     scanf("%d", &N2);
@@ -25,10 +24,10 @@ int main()
     {
         int t;
         scanf("%d", &t);
-        S.push_back(t);
+        S[N1 + i] = t;
     }
 
-    sort(S.begin(), S.end());
+    sort(S, S + N1 + N2);
 
     printf("%d", S[(N1 + N2 - 1)/2]);
 
