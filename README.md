@@ -32,3 +32,15 @@
 ### 解题思路
 
 此题较难构建左右子树的指针结构。利用数组保存标号对应结点的子节点。如：对于 id 号结点，其子节点为 nodes[id].childs 的 arraylist。构建完毕后简单地 dfs 或 bfs 搜索并记录即可。
+
+## 1005 Spell It Right（20 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1005-spell-it-right20-%E5%88%86)
+
+[Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1005/Main.java)
+
+## 1006 Sign In and Sign Out（25 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1006-sign-in-and-sign-out25-%E5%88%86)
+
+[Java (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1006/Main.java)
