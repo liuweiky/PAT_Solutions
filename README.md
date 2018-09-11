@@ -44,3 +44,15 @@
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1006-sign-in-and-sign-out25-%E5%88%86)
 
 [Java (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1006/Main.java)
+
+## 1007 Maximum Subsequence Sum（25 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1007-maximum-subsequence-sum25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1007/main.cpp)
+
+[Java (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1007/Main.java)
+
+### 解题思路
+
+动态规划，向前先后均可，注意记录子串开始和结束位置的方法。对于向后递推，设置一个 from 数组记录以 i 结尾的最大和子串的 i 的前一个数。
