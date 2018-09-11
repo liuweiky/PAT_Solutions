@@ -171,3 +171,51 @@ For each test case, output in one line the largest sum, together with the first 
 ```
 10 1 4
 ```	
+
+# 1008 Elevator（20 分）
+[Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1008/Main.java)
+
+The highest building in our city has only one elevator. A request list is made up with N positive numbers. The numbers denote at which floors the elevator will stop, in specified order. It costs 6 seconds to move the elevator up one floor, and 4 seconds to move down one floor. The elevator will stay for 5 seconds at each stop.
+
+For a given request list, you are to compute the total time spent to fulfill the requests on the list. The elevator is on the 0th floor at the beginning and does not have to return to the ground floor when the requests are fulfilled.
+
+## Input Specification:
+Each input file contains one test case. Each case contains a positive integer N, followed by N positive numbers. All the numbers in the input are less than 100.
+
+## Output Specification:
+For each test case, print the total time on a single line.
+
+## Sample Input:
+```
+3 2 3 1
+```
+## Sample Output:
+```
+41
+```
+
+# 1009 Product of Polynomials（25 分）
+[Java (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1009/Main.java)
+
+This time, you are supposed to find A×B where A and B are two polynomials.
+
+## Input Specification:
+Each input file contains one test case. Each case occupies 2 lines, and each line contains the information of a polynomial:
+
+K N1 aN1 N2 aN2 ... NK a​N​K
+
+where K is the number of nonzero terms in the polynomial, N​i and a​Ni(i=1,2,...,K) are the exponents and coefficients, respectively. It is given that 1≤K≤10, 0≤N​K<...<N2<N1≤1000.
+
+## Output Specification:
+For each test case you should output the product of A and B in one line, with the same format as the input. Notice that there must be NO extra space at the end of each line. Please be accurate up to 1 decimal place.
+
+## Sample Input:
+```
+2 1 2.4 0 3.2
+2 2 1.5 1 0.5
+```
+## Sample Output:
+```
+3 3 3.6 2 6.0 1 1.6
+```
+
