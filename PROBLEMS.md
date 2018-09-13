@@ -219,3 +219,121 @@ For each test case you should output the product of A and B in one line, with th
 3 3 3.6 2 6.0 1 1.6
 ```
 
+# 1010 Radix （25 分）
+[Java (23/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1010/Main.java)
+
+Given a pair of positive integers, for example, 6 and 110, can this equation 6 = 110 be true? The answer is yes, if 6 is a decimal number and 110 is a binary number.
+
+Now for any pair of positive integers N1 and N​2, your task is to find the radix of one number while that of the other is given.
+
+## Input Specification:
+Each input file contains one test case. Each case occupies a line which contains 4 positive integers:
+
+```
+N1 N2 tag radix
+```
+
+Here N1 and N2 each has no more than 10 digits. A digit is less than its radix and is chosen from the set { 0-9, a-z } where 0-9 represent the decimal numbers 0-9, and a-z represent the decimal numbers 10-35. The last number radix is the radix of N1 if tag is 1, or of N2 if tag is 2.
+
+## Output Specification:
+For each test case, print in one line the radix of the other number so that the equation N1 = N2 is true. If the equation is impossible, print Impossible. If the solution is not unique, output the smallest possible radix.
+
+## Sample Input 1:
+```
+6 110 1 10
+```
+## Sample Output 1:
+```
+2
+```
+## Sample Input 2:
+```
+1 ab 1 2
+```
+## Sample Output 2:
+```
+Impossible
+```
+
+# 1011 World Cup Betting （20 分）
+[Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1011/Main.java)
+
+With the 2010 FIFA World Cup running, football fans the world over were becoming increasingly excited as the best players from the best teams doing battles for the World Cup trophy in South Africa. Similarly, football betting fans were putting their money where their mouths were, by laying all manner of World Cup bets.
+
+Chinese Football Lottery provided a "Triple Winning" game. The rule of winning was simple: first select any three of the games. Then for each selected game, bet on one of the three possible results -- namely W for win, T for tie, and L for lose. There was an odd assigned to each result. The winner's odd would be the product of the three odds times 65%.
+
+For example, 3 games' odds are given as the following:
+```
+ W    T    L
+1.1  2.5  1.7
+1.2  3.1  1.6
+4.1  1.2  1.1
+```
+To obtain the maximum profit, one must buy W for the 3rd game, T for the 2nd game, and T for the 1st game. If each bet takes 2 yuans, then the maximum profit would be (4.1×3.1×2.5×65%−1)×2=39.31 yuans (accurate up to 2 decimal places).
+
+## Input Specification:
+Each input file contains one test case. Each case contains the betting information of 3 games. Each game occupies a line with three distinct odds corresponding to W, T and L.
+
+## Output Specification:
+For each test case, print in one line the best bet of each game, and the maximum profit accurate up to 2 decimal places. The characters and the number must be separated by one space.
+
+## Sample Input:
+```
+1.1 2.5 1.7
+1.2 3.1 1.6
+4.1 1.2 1.1
+```
+## Sample Output:
+```
+T T W 39.31
+```
+
+# 1012 The Best Rank （25 分）
+[Java (19/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1012/Main.java)
+
+To evaluate the performance of our first year CS majored students, we consider their grades of three courses only: C - C Programming Language, M - Mathematics (Calculus or Linear Algrbra), and E - English. At the mean time, we encourage students by emphasizing on their best ranks -- that is, among the four ranks with respect to the three courses and the average grade, we print the best rank for each student.
+
+For example, The grades of C, M, E and A - Average of 4 students are given as the following:
+```
+StudentID  C  M  E  A
+310101     98 85 88 90
+310102     70 95 88 84
+310103     82 87 94 88
+310104     91 91 91 91
+```
+Then the best ranks for all the students are No.1 since the 1st one has done the best in C Programming Language, while the 2nd one in Mathematics, the 3rd one in English, and the last one in average.
+
+## Input Specification:
+Each input file contains one test case. Each case starts with a line containing 2 numbers N and M (≤2000), which are the total number of students, and the number of students who would check their ranks, respectively. Then N lines follow, each contains a student ID which is a string of 6 digits, followed by the three integer grades (in the range of [0, 100]) of that student in the order of C, M and E. Then there are M lines, each containing a student ID.
+
+## Output Specification:
+For each of the M students, print in one line the best rank for him/her, and the symbol of the corresponding rank, separated by a space.
+
+The priorities of the ranking methods are ordered as A > C > M > E. Hence if there are two or more ways for a student to obtain the same best rank, output the one with the highest priority.
+
+If a student is not on the grading list, simply output N/A.
+
+## Sample Input:
+```
+5 6
+310101 98 85 88
+310102 70 95 88
+310103 82 87 94
+310104 91 91 91
+310105 85 90 90
+310101
+310102
+310103
+310104
+310105
+999999
+```
+## Sample Output:
+```
+1 C
+1 M
+1 E
+1 A
+3 A
+N/A
+```
