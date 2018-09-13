@@ -69,3 +69,28 @@
 
 [Java (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1009/Main.java)
 
+## 1010 Radix （25 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1010-radix-25-%E5%88%86)
+
+[Java (23/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1010/Main.java)
+
+### 解题思路
+
+进制转换。测试点7、测试点19 答案错误。
+
+## 1011 World Cup Betting （20 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1011-world-cup-betting-20-%E5%88%86)
+
+[Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1011/Main.java)
+
+## 1012 The Best Rank （25 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1012-the-best-rank-25-%E5%88%86)
+
+[Java (19/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1012/Main.java)
+
+### 解题思路
+
+排序。测试点3、测试点4 运行超时，尝试改用 C++ 重写。
