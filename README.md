@@ -94,3 +94,24 @@
 ### 解题思路
 
 排序。测试点3、测试点4 运行超时，尝试改用 C++ 重写。
+
+## 1013 Battle Over Cities （25 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1013-battle-over-cities-25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1013/main.cpp)
+
+[Java (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1013/Main.java)
+
+### 解题思路
+去掉指定的 city 后，多次在主程序中 DFS，使得 visit 均为 1。主程序中 DFS 的次数即为图的连通分量数。若连通分量数为 n，则需要再加 n-1 条边使得所有连通分量连通。
+
+## 1014 Waiting in Line （30 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1014-waiting-in-line-30-%E5%88%86)
+
+[Java (30/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1014/Main.java)
+
+### 解题思路
+
+复杂模拟。
