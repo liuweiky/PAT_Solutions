@@ -115,3 +115,15 @@
 ### 解题思路
 
 复杂模拟。
+
+## 1015 Reversible Primes （20 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1015-reversible-primes-20-%E5%88%86)
+
+[Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1015/Main.java)
+
+### 解题思路
+
+Reversible primes 定义：在十进制下是质数，转为相应进制反转后再转回十进制后还是质数。
+
+使用 Java 时要善于使用 Integer 和 String 的进制转换函数。
