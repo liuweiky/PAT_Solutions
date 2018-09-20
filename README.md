@@ -155,3 +155,16 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 ### 解题思路
 
 简单模拟。用 Java 最后一个测试点会超时。
+
+## 1031 Hello World for U （20 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1031-hello-world-for-u-20-%E5%88%86)
+
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1031/main.cpp)
+
+### 解题思路
+
+应满足的条件：
+
+* U 越接近 “square” 形状越好 -> n1 与 n2 之差的绝对值越小越好
+* n2 ≤ n1 = n3
