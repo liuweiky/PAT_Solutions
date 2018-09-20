@@ -220,6 +220,8 @@ For each test case you should output the product of A and B in one line, with th
 ```
 
 # 1010 Radix （25 分）
+[C++ (24/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1010/main.cpp)
+
 [Java (23/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1010/Main.java)
 
 Given a pair of positive integers, for example, 6 and 110, can this equation 6 = 110 be true? The answer is yes, if 6 is a decimal number and 110 is a binary number.

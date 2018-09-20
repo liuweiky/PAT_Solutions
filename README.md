@@ -73,11 +73,21 @@
 
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1010-radix-25-%E5%88%86)
 
+[C++ (24/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1010/main.cpp)
+
 [Java (23/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1010/Main.java)
 
 ### 解题思路
 
-进制转换。测试点7、测试点19 答案错误。
+进制转换。此题要注意的细节非常多。
+
+* 最小进制：在要转化的数出现的数中最大数 + 1。最大进制： k + 1，k 为目标数。
+
+* 从 min_radix 到 max_radix 遍历会超时，要使用[二分查找](https://github.com/Heliovic/AlgorithmSet/blob/master/BinarySearch/main.cpp)。
+
+* 要使用 unsigned long long，注意输出时的格式说明符： *"%llu"*。
+
+【测试点 19】仍然过不了， 求大神指教。
 
 ## 1011 World Cup Betting （20 分）
 
