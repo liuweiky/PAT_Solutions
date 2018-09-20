@@ -127,3 +127,21 @@
 Reversible primes 定义：在十进制下是质数，转为相应进制反转后再转回十进制后还是质数。
 
 使用 Java 时要善于使用 Integer 和 String 的进制转换函数。
+
+## 1016 Phone Bills （25 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1016-phone-bills-25-%E5%88%86)
+
+[Java (15/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1016/Main.java)
+
+## 1017 Queueing at Bank （25 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1017-queueing-at-bank-25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1017/main.cpp)
+
+[Java (23/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1017/Main.java)
+
+### 解题思路
+
+简单模拟。用 Java 最后一个测试点会超时。
