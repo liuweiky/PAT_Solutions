@@ -178,3 +178,14 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 ### 解题思路
 
 简单模拟。使用 stringstream 将 int 转为 string。
+
+## 1046 Shortest Distance （20 分）
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1046-shortest-distance-20-%E5%88%86)
+
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1046/main.cpp)
+
+### 解题思路
+
+若直接遍历，最后一个测试点很容易就超时了。
+
+使用 dis 数组记录从 1 到 i + 1 的路径长度。则 s 到 t 的顺时针长度为 `dis[t - 1] - dis[s - 1], s < t`。其反方向长度为 `total_dis - dis1`，取两个方向的长度较小值即为答案。
