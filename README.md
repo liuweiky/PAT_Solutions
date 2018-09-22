@@ -189,3 +189,18 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 若直接遍历，最后一个测试点很容易就超时了。
 
 使用 dis 数组记录从 1 到 i + 1 的路径长度。则 s 到 t 的顺时针长度为 `dis[t - 1] - dis[s - 1], s < t`。其反方向长度为 `total_dis - dis1`，取两个方向的长度较小值即为答案。
+
+## 1065 A+B and C (64bit) （20 分）
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#output-specification-19)
+
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1065/main.cpp)
+
+### 解题思路
+
+* **方法一**
+	* 若 a > 0 且 b > 0，但 a + b < 0，则说明 a + b >= 2^63。
+	* 若 a < 0 且 b < 0，但 a + b >= 0，则说明 a + b < -2^63。
+	* 注意，这是不严谨的，因为题目中说明，a, b, c 的范围可以达到 `LONG_LONG_MAX + 1`，但测试用例可以通过。
+* **方法二**
+	* 大数加减法
+
