@@ -156,6 +156,18 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 
 简单模拟。用 Java 最后一个测试点会超时。
 
+## 1018 Public Bike Management （30 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1018-public-bike-management-30-%E5%88%86)
+
+[C++ (30/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1018/main.cpp)
+
+### 解题思路
+
+先使用 Dijkstra 算法求出所有最短路。之后简单模拟按照路径行进，计算出需要带的自行车。
+
+注意，只允许由前向后单向带车，路径中后继结点的车不可带到前驱结点！
+
 ## 1031 Hello World for U （20 分）
 
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1031-hello-world-for-u-20-%E5%88%86)
