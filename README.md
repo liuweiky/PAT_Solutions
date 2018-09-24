@@ -168,6 +168,12 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 
 注意，只允许由前向后单向带车，路径中后继结点的车不可带到前驱结点！
 
+## 1019 General Palindromic Number （20 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1019-general-palindromic-number-20-%E5%88%86)
+
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1019/main.cpp)
+
 ## 1031 Hello World for U （20 分）
 
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1031-hello-world-for-u-20-%E5%88%86)
