@@ -201,6 +201,12 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 * U 越接近 “square” 形状越好 -> n1 与 n2 之差的绝对值越小越好
 * n2 ≤ n1 = n3
 
+## 1036 Boys vs Girls （25 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1036-boys-vs-girls-25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1036/main.cpp)
+
 ## 1042 Shuffling Machine （20 分）
 
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1042-shuffling-machine-20-%E5%88%86)
