@@ -174,6 +174,20 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 
 [C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1019/main.cpp)
 
+## 1020 Tree Traversals （25 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1020-tree-traversals-25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1020/main.cpp)
+
+### 解题思路
+
+由中根遍历和后根遍历递归构建二叉树。
+
+后根遍历序列的最后一个结点是该序列对应下的根结点。而利用此根结点，可在中根遍历序列中划分左右子树。
+
+由划分后的左右子树得到下一递归时的数组索引，递归构造左右子树。
+
 ## 1031 Hello World for U （20 分）
 
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1031-hello-world-for-u-20-%E5%88%86)
