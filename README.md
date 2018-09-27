@@ -247,3 +247,11 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 * **方法二**
 	* 大数加减法
 
+## 1073 Scientific Notation （20 分）
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1073-scientific-notation-20-%E5%88%86)
+
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1073/main.cpp)
+
+### 解题思路
+
+分类讨论，模拟移位。
