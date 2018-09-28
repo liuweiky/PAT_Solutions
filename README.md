@@ -188,6 +188,16 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 
 由划分后的左右子树得到下一递归时的数组索引，递归构造左右子树。
 
+## 1021 Deepest Root （25 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1021-deepest-root-25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1021/main.cpp)
+
+### 解题思路
+
+DFS。**非递归的 DFS 次数为连通分量数。**
+
 ## 1031 Hello World for U （20 分）
 
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1031-hello-world-for-u-20-%E5%88%86)
