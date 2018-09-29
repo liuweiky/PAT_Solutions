@@ -198,6 +198,16 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 
 DFS。**非递归的 DFS 次数为连通分量数。**
 
+## 1022 Digital Library （30 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1022-digital-library-30-%E5%88%86)
+
+[C++ (30/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1022/main.cpp)
+
+### 解题思路
+
+字符串处理。注意 `cin.ignore();` 和 `setfill(char)`、 `setw(int)` 的使用。
+
 ## 1031 Hello World for U （20 分）
 
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1031-hello-world-for-u-20-%E5%88%86)
