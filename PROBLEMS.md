@@ -743,6 +743,63 @@ ZUCS Print2
 Not Found
 ```
 
+# 1023 Have Fun with Numbers （20 分）
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1023/main.cpp)
+
+Notice that the number 123456789 is a 9-digit number consisting exactly the numbers from 1 to 9, with no duplication. Double it we will obtain 246913578, which happens to be another 9-digit number consisting exactly the numbers from 1 to 9, only in a different permutation. Check to see the result if we double it again!
+
+Now you are suppose to check if there are more numbers with this property. That is, double a given number with k digits, you are to tell if the resulting number consists of only a permutation of the digits in the original number.
+
+## Input Specification:
+Each input contains one test case. Each case contains one positive integer with no more than 20 digits.
+
+## Output Specification:
+For each test case, first print in a line "Yes" if doubling the input number gives a number that consists of only a permutation of the digits in the original number, or "No" if not. Then in the next line, print the doubled number.
+
+## Sample Input:
+```
+1234567899
+```
+## Sample Output:
+```
+Yes
+2469135798
+```
+
+# 1024 Palindromic Number （25 分）
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1024/main.cpp)
+
+A number that will be the same when it is written forwards or backwards is known as a Palindromic Number. For example, 1234321 is a palindromic number. All single digit numbers are palindromic numbers.
+
+Non-palindromic numbers can be paired with palindromic ones via a series of operations. First, the non-palindromic number is reversed and the result is added to the original number. If the result is not a palindromic number, this is repeated until it gives a palindromic number. For example, if we start from 67, we can obtain a palindromic number in 2 steps: 67 + 76 = 143, and 143 + 341 = 484.
+
+Given any positive integer N, you are supposed to find its paired palindromic number and the number of steps taken to find it.
+
+## Input Specification:
+Each input file contains one test case. Each case consists of two positive numbers N and K, where N (≤10^10) is the initial numer and K (≤100) is the maximum number of steps. The numbers are separated by a space.
+
+## Output Specification:
+For each test case, output two numbers, one in each line. The first number is the paired palindromic number of N, and the second number is the number of steps taken to find the palindromic number. If the palindromic number is not found after K steps, just output the number obtained at the Kth step and K instead.
+
+## Sample Input 1:
+```
+67 3
+```
+## Sample Output 1:
+```
+484
+2
+```
+## Sample Input 2:
+```
+69 3
+```
+## Sample Output 2:
+```
+1353
+3
+```
+
 # 1031 Hello World for U （20 分）
 [C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1031/main.cpp)
 
