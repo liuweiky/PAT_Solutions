@@ -208,6 +208,18 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 字符串处理。注意 `cin.ignore();` 和 `setfill(char)`、 `setw(int)` 的使用。
 
+## 1023 Have Fun with Numbers （20 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1023-have-fun-with-numbers-20-%E5%88%86)
+
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1023/main.cpp)
+
+## 1024 Palindromic Number （25 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1024-palindromic-number-25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1024/main.cpp)
+
 ## 1031 Hello World for U （20 分）
 
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1031-hello-world-for-u-20-%E5%88%86)
