@@ -220,6 +220,18 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1024/main.cpp)
 
+## 1025 PAT Ranking （25 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1025-pat-ranking-25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1025/main.cpp)
+
+## 1026 Table Tennis （30 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1026-table-tennis-30-%E5%88%86)
+
+[C++ (12/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1026/main.cpp)
+
 ## 1031 Hello World for U （20 分）
 
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1031-hello-world-for-u-20-%E5%88%86)
