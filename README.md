@@ -245,6 +245,12 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 * U 越接近 “square” 形状越好 -> n1 与 n2 之差的绝对值越小越好
 * n2 ≤ n1 = n3
 
+## 1035 Password （20 分）
+
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1035-password-20-%E5%88%86)
+
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1035/main.cpp)
+
 ## 1036 Boys vs Girls （25 分）
 
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1036-boys-vs-girls-25-%E5%88%86)
