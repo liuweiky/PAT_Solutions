@@ -310,3 +310,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1077-kuchiguse-20-%E5%88%86)
 
 [C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1077/main.cpp)
+
+### 解题思路
+
+使用`gets()`编译失败。
