@@ -800,6 +800,93 @@ For each test case, output two numbers, one in each line. The first number is th
 3
 ```
 
+# 1025 PAT Ranking （25 分）
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1025/main.cpp)
+
+Programming Ability Test (PAT) is organized by the College of Computer Science and Technology of Zhejiang University. Each test is supposed to run simultaneously in several places, and the ranklists will be merged immediately after the test. Now it is your job to write a program to correctly merge all the ranklists and generate the final rank.
+
+## Input Specification:
+Each input file contains one test case. For each case, the first line contains a positive number N (≤100), the number of test locations. Then N ranklists follow, each starts with a line containing a positive integer K (≤300), the number of testees, and then K lines containing the registration number (a 13-digit number) and the total score of each testee. All the numbers in a line are separated by a space.
+
+## Output Specification:
+For each test case, first print in one line the total number of testees. Then print the final ranklist in the following format:
+```
+registration_number final_rank location_number local_rank
+```
+The locations are numbered from 1 to N. The output must be sorted in nondecreasing order of the final ranks. The testees with the same score must have the same rank, and the output must be sorted in nondecreasing order of their registration numbers.
+
+## Sample Input:
+```
+2
+5
+1234567890001 95
+1234567890005 100
+1234567890003 95
+1234567890002 77
+1234567890004 85
+4
+1234567890013 65
+1234567890011 25
+1234567890014 100
+1234567890012 85
+```
+## Sample Output:
+```
+9
+1234567890005 1 1 1
+1234567890014 1 2 1
+1234567890001 3 1 2
+1234567890003 3 1 2
+1234567890004 5 1 4
+1234567890012 5 2 2
+1234567890002 7 1 5
+1234567890013 8 2 3
+1234567890011 9 2 4
+```
+
+# 1026 Table Tennis （30 分）
+[C++ (30/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1026/main.cpp)
+
+A table tennis club has N tables available to the public. The tables are numbered from 1 to N. For any pair of players, if there are some tables open when they arrive, they will be assigned to the available table with the smallest number. If all the tables are occupied, they will have to wait in a queue. It is assumed that every pair of players can play for at most 2 hours.
+
+Your job is to count for everyone in queue their waiting time, and for each table the number of players it has served for the day.
+
+One thing that makes this procedure a bit complicated is that the club reserves some tables for their VIP members. When a VIP table is open, the first VIP pair in the queue will have the priviledge to take it. However, if there is no VIP in the queue, the next pair of players can take it. On the other hand, if when it is the turn of a VIP pair, yet no VIP table is available, they can be assigned as any ordinary players.
+
+## Input Specification:
+Each input file contains one test case. For each case, the first line contains an integer N (≤10000) - the total number of pairs of players. Then N lines follow, each contains 2 times and a VIP tag: HH:MM:SS - the arriving time, P - the playing time in minutes of a pair of players, and tag - which is 1 if they hold a VIP card, or 0 if not. It is guaranteed that the arriving time is between 08:00:00 and 21:00:00 while the club is open. It is assumed that no two customers arrives at the same time. Following the players' info, there are 2 positive integers: K (≤100) - the number of tables, and M (< K) - the number of VIP tables. The last line contains M table numbers.
+
+## Output Specification:
+For each test case, first print the arriving time, serving time and the waiting time for each pair of players in the format shown by the sample. Then print in a line the number of players served by each table. Notice that the output must be listed in chronological order of the serving time. The waiting time must be rounded up to an integer minute(s). If one cannot get a table before the closing time, their information must NOT be printed.
+
+## Sample Input:
+```
+9
+20:52:00 10 0
+08:00:00 20 0
+08:02:00 30 0
+20:51:00 10 0
+08:10:00 5 0
+08:12:00 10 1
+20:50:00 10 0
+08:01:30 15 1
+20:53:00 10 1
+3 1
+2
+```
+## Sample Output:
+```
+08:00:00 08:00:00 0
+08:01:30 08:01:30 0
+08:02:00 08:02:00 0
+08:12:00 08:16:30 5
+08:10:00 08:20:00 10
+20:50:00 20:50:00 0
+20:51:00 20:51:00 0
+20:52:00 20:52:00 0
+3 3 2
+```
+
 # 1031 Hello World for U （20 分）
 [C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1031/main.cpp)
 
