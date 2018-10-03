@@ -845,7 +845,7 @@ The locations are numbered from 1 to N. The output must be sorted in nondecreasi
 ```
 
 # 1026 Table Tennis （30 分）
-[C++ (30/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1026/main.cpp)
+[C++ (12/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1026/main.cpp)
 
 A table tennis club has N tables available to the public. The tables are numbered from 1 to N. For any pair of players, if there are some tables open when they arrive, they will be assigned to the available table with the smallest number. If all the tables are occupied, they will have to wait in a queue. It is assumed that every pair of players can play for at most 2 hours.
 
