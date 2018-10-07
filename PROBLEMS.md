@@ -910,6 +910,8 @@ For each test case you should output the Mars RGB value in the following format:
 ```
 
 # 1028 List Sorting （25 分）
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1028/main.cpp)
+
 Excel can sort records according to any column. Now you are supposed to imitate this function.
 
 ## Input Specification:
