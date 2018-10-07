@@ -887,6 +887,81 @@ For each test case, first print the arriving time, serving time and the waiting 
 3 3 2
 ```
 
+# 1027 Colors in Mars （20 分）
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1027/main.cpp)
+
+[Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1027/Main.java)
+
+People in Mars represent the colors in their computers in a similar way as the Earth people. That is, a color is represented by a 6-digit number, where the first 2 digits are for Red, the middle 2 digits for Green, and the last 2 digits for Blue. The only difference is that they use radix 13 (0-9 and A-C) instead of 16. Now given a color in three decimal numbers (each between 0 and 168), you are supposed to output their Mars RGB values.
+
+## Input Specification:
+Each input file contains one test case which occupies a line containing the three decimal color values.
+
+## Output Specification:
+For each test case you should output the Mars RGB value in the following format: first output #, then followed by a 6-digit number where all the English characters must be upper-cased. If a single color is only 1-digit long, you must print a 0 to its left.
+
+## Sample Input:
+```
+15 43 71
+```
+## Sample Output:
+```
+#123456
+```
+
+# 1028 List Sorting （25 分）
+Excel can sort records according to any column. Now you are supposed to imitate this function.
+
+## Input Specification:
+Each input file contains one test case. For each case, the first line contains two integers N (≤10^5) and C, where N is the number of records and C is the column that you are supposed to sort the records with. Then N lines follow, each contains a record of a student. A student's record consists of his or her distinct ID (a 6-digit number), name (a string with no more than 8 characters without space), and grade (an integer between 0 and 100, inclusive).
+
+## Output Specification:
+For each test case, output the sorting result in N lines. That is, if C = 1 then the records must be sorted in increasing order according to ID's; if C = 2 then the records must be sorted in non-decreasing order according to names; and if C = 3 then the records must be sorted in non-decreasing order according to grades. If there are several students who have the same name or grade, they must be sorted according to their ID's in increasing order.
+
+## Sample Input 1:
+```
+3 1
+000007 James 85
+000010 Amy 90
+000001 Zoe 60
+```
+## Sample Output 1:
+```
+000001 Zoe 60
+000007 James 85
+000010 Amy 90
+```
+## Sample Input 2:
+```
+4 2
+000007 James 85
+000010 Amy 90
+000001 Zoe 60
+000002 James 98
+```
+## Sample Output 2:
+```
+000010 Amy 90
+000002 James 98
+000007 James 85
+000001 Zoe 60
+```
+## Sample Input 3:
+```
+4 3
+000007 James 85
+000010 Amy 90
+000001 Zoe 60
+000002 James 90
+```
+## Sample Output 3:
+```
+000001 Zoe 60
+000007 James 85
+000002 James 90
+000010 Amy 90
+```
+
 # 1031 Hello World for U （20 分）
 [C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1031/main.cpp)
 
