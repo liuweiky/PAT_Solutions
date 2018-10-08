@@ -297,6 +297,15 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1061/main.cpp)
 
+## 1062 Talent and Virtue （25 分）
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1062-talent-and-virtue-25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1062/main.cpp)
+
+### 解题思路
+
+将各类人抽象成一个可以比较的数 `type` 方便排序。
+
 ## 1065 A+B and C (64bit) （20 分）
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1065-ab-and-c-64bit-20-%E5%88%86)
 
