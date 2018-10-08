@@ -328,3 +328,18 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ### 解题思路
 
 使用 `gets()` 编译失败。
+
+## 1082 Read Number in Chinese （25 分）
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1082-read-number-in-chinese-25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1082/main.cpp)
+
+### 解题思路
+
+1. 将数字去掉符号后转为 9 位的格式，不足前面填0
+
+2. 从第一个非 0 位开始，每输出一位数，随即输出对应单位，个位用单位 `""` 处理，注意判断最后一位的个位，不要多输出空格
+
+3. 输出某一位 `i` 后，检查下一个不是 0 的位 `n` 是否等于 `i + 1` ，若是，继续输出，若不是，多输出一个 `"ling"`。注意 0 一直连续到最后一位的情况
+
+4. 对于千万位的处理，若 `i = 4` ，直接输出 `"Wan"` ，否则，若有 `n` 跨越 4，且不是从 0 开始跨越，也输出 `"Wan"`
