@@ -298,6 +298,11 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 使用 dis 数组记录从 1 到 i + 1 的路径长度。则 s 到 t 的顺时针长度为 `dis[t - 1] - dis[s - 1], s < t`。其反方向长度为 `total_dis - dis1`，取两个方向的长度较小值即为答案。
 
+## 1055 The World's Richest （25 分）
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1055-the-worlds-richest-25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1055/main.cpp)
+
 ## 1061 Dating （20 分）
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1061-dating-20-%E5%88%86)
 
