@@ -340,6 +340,17 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 分类讨论，模拟移位。
 
+## 1075 PAT Judge （25 分）
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1075-pat-judge-25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1075/main.cpp)
+
+### 解题思路
+
+数组排序。记得在结构体内部记录 id。
+
+**以用户 id 为数组索引节省运行时间。**
+
 ## 1077 Kuchiguse （20 分）
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1077-kuchiguse-20-%E5%88%86)
 
