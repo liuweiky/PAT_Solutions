@@ -440,6 +440,8 @@ No
 ```
 
 # 1016 Phone Bills （25 分）
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1016/main.cpp)
+
 [Java (15/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1016/Main.java)
 
 A long-distance telephone company charges its customers by the following rules:

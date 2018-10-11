@@ -146,6 +146,8 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1016-phone-bills-25-%E5%88%86)
 
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1016/main.cpp)
+
 [Java (15/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1016/Main.java)
 
 ## 1017 Queueing at Bank （25 分）
