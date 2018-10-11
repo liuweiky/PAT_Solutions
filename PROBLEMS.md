@@ -291,6 +291,8 @@ T T W 39.31
 ```
 
 # 1012 The Best Rank （25 分）
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1012/main.cpp)
+
 [Java (19/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1012/Main.java)
 
 To evaluate the performance of our first year CS majored students, we consider their grades of three courses only: C - C Programming Language, M - Mathematics (Calculus or Linear Algrbra), and E - English. At the mean time, we encourage students by emphasizing on their best ranks -- that is, among the four ranks with respect to the three courses and the average grade, we print the best rank for each student.

@@ -99,11 +99,15 @@
 
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1012-the-best-rank-25-%E5%88%86)
 
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1012/main.cpp)
+
 [Java (19/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1012/Main.java)
 
 ### 解题思路
 
-排序。测试点3、测试点4 运行超时，尝试改用 C++ 重写。
+排序。java 测试点3、测试点4 运行超时，尝试改用 C++ 重写。
+
+20181011: C++ done
 
 ## 1013 Battle Over Cities （25 分）
 
