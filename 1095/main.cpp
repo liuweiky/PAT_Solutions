@@ -2,6 +2,8 @@
 #include <algorithm>
 #include <vector>
 #include <cstring>
+#include <map>
+#include <string>
 
 #define IN 1
 #define OUT 0
@@ -24,15 +26,10 @@ struct valid_rec
     record* rt;
 };
 
-struct mtime
-{
-    int time;
-    char pnum[16];
-};
-
 vector<record*> recs;
 vector<valid_rec*> valrecs;
-vector<mtime*> ms;
+
+map<string, int> mp;
 
 bool cmp(record* r1, record* r2)
 {
@@ -79,38 +76,31 @@ int main()
         }
     }
 
-    for (int i = 0; i < valrecs.size(); )
+    for (int i = 0; i < valrecs.size(); i++)
     {
-        mtime* m = new mtime;
-        m->time = valrecs[i]->rt->time_tag - valrecs[i]->rf->time_tag;
-        strcpy(m->pnum, valrecs[i]->rf->pnum);
+        int time;
+        time = valrecs[i]->rt->time_tag - valrecs[i]->rf->time_tag;
 
-        int j;
-
-        for (j = i + 1; j < valrecs.size();j++)
-        {
-            if (strcmp(valrecs[j]->rf->pnum, valrecs[i]->rf->pnum) == 0)
-            {
-                m->time += valrecs[j]->rt->time_tag - valrecs[j]->rf->time_tag;
-            } else
-                break;
-        }
-        ms.push_back(m);
-        i = j;
+        if (mp[valrecs[i]->rf->pnum] == NULL)
+            mp[valrecs[i]->rf->pnum] = time;
+        else
+            mp[valrecs[i]->rf->pnum] += time;
     }
 
     int max_time = -1;
-    vector<int> idxs;
+    vector<string> pns;
 
-    for (int i = 0; i < ms.size(); i++)
+    for (map<string, int>::iterator it = mp.begin(); it != mp.end(); it++)
     {
-        if (max_time < ms[i]->time)
+        if (it->second > max_time)
         {
-            max_time = ms[i]->time;
-            idxs.clear();
-            idxs.push_back(i);
-        } else if (max_time == ms[i]->time)
-            idxs.push_back(i);
+            max_time = it->second;
+            pns.clear();
+            pns.push_back(it->first);
+        } else if (it->second == max_time)
+        {
+            pns.push_back(it->first);
+        }
     }
 
     int start = 0;
@@ -140,8 +130,8 @@ int main()
         printf("%d\n", cnt);
     }
 
-    for (int i = 0; i < idxs.size(); i++)
-        printf("%s ", ms[idxs[i]]->pnum);
+    for (int i = 0; i < pns.size(); i++)
+        printf("%s ", pns[i].c_str());
 
     int h = max_time / 3600;
     int m = (max_time / 60) % 60;
