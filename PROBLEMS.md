@@ -1450,3 +1450,131 @@ Fu yi Yi er Qian san Bai si Shi wu Wan liu Qian qi Bai ba Shi jiu
 ```
 yi Shi Wan ling ba Bai
 ```
+
+# 1083 List Grades （25 分）
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1083/main.cpp)
+
+Given a list of N student records with name, ID and grade. You are supposed to sort the records with respect to the grade in non-increasing order, and output those student records of which the grades are in a given interval.
+
+## Input Specification:
+Each input file contains one test case. Each case is given in the following format:
+```
+N
+name[1] ID[1] grade[1]
+name[2] ID[2] grade[2]
+... ...
+name[N] ID[N] grade[N]
+grade1 grade2
+```
+where name[i] and ID[i] are strings of no more than 10 characters with no space, grade[i] is an integer in [0, 100], grade1 and grade2 are the boundaries of the grade's interval. It is guaranteed that all the grades are distinct.
+
+## Output Specification:
+For each test case you should output the student records of which the grades are in the given interval [grade1, grade2] and are in non-increasing order. Each student record occupies a line with the student's name and ID, separated by one space. If there is no student's grade in that interval, output NONE instead.
+
+## Sample Input 1:
+```
+4
+Tom CS000001 59
+Joe Math990112 89
+Mike CS991301 100
+Mary EE990830 95
+60 100
+```
+## Sample Output 1:
+```
+Mike CS991301
+Mary EE990830
+Joe Math990112
+```
+## Sample Input 2:
+```
+2
+Jean AA980920 60
+Ann CS01 80
+90 95
+```
+## Sample Output 2:
+```
+NONE
+```
+
+# 1084 Broken Keyboard （20 分）
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1084/main.cpp)
+
+On a broken keyboard, some of the keys are worn out. So when you type some sentences, the characters corresponding to those keys will not appear on screen.
+
+Now given a string that you are supposed to type, and the string that you actually type out, please list those keys which are for sure worn out.
+
+## Input Specification:
+Each input file contains one test case. For each case, the 1st line contains the original string, and the 2nd line contains the typed-out string. Each string contains no more than 80 characters which are either English letters [A-Z] (case insensitive), digital numbers [0-9], or _ (representing the space). It is guaranteed that both strings are non-empty.
+
+## Output Specification:
+For each test case, print in one line the keys that are worn out, in the order of being detected. The English letters must be capitalized. Each worn out key must be printed once only. It is guaranteed that there is at least one worn out key.
+
+## Sample Input:
+```
+7_This_is_a_test
+_hs_s_a_es
+```
+## Sample Output:
+```
+7TI
+```
+
+# 1095 Cars on Campus （30 分）
+[C++ (27/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1095/main.cpp)
+
+Zhejiang University has 8 campuses and a lot of gates. From each gate we can collect the in/out times and the plate numbers of the cars crossing the gate. Now with all the information available, you are supposed to tell, at any specific time point, the number of cars parking on campus, and at the end of the day find the cars that have parked for the longest time period.
+
+## Input Specification:
+Each input file contains one test case. Each case starts with two positive integers N (≤10^4), the number of records, and K (≤8×10^4) the number of queries. Then N lines follow, each gives a record in the format:
+```
+plate_number hh:mm:ss status
+```
+where plate_number is a string of 7 English capital letters or 1-digit numbers; hh:mm:ss represents the time point in a day by hour:minute:second, with the earliest time being 00:00:00 and the latest 23:59:59; and status is either in or out.
+
+Note that all times will be within a single day. Each in record is paired with the chronologically next record for the same car provided it is an out record. Any in records that are not paired with an out record are ignored, as are out records not paired with an in record. It is guaranteed that at least one car is well paired in the input, and no car is both in and out at the same moment. Times are recorded using a 24-hour clock.
+
+Then K lines of queries follow, each gives a time point in the format hh:mm:ss. Note: the queries are given in accending order of the times.
+
+## Output Specification:
+For each query, output in a line the total number of cars parking on campus. The last line of output is supposed to give the plate number of the car that has parked for the longest time period, and the corresponding time length. If such a car is not unique, then output all of their plate numbers in a line in alphabetical order, separated by a space.
+
+## Sample Input:
+```
+16 7
+JH007BD 18:00:01 in
+ZD00001 11:30:08 out
+DB8888A 13:00:00 out
+ZA3Q625 23:59:50 out
+ZA133CH 10:23:00 in
+ZD00001 04:09:59 in
+JH007BD 05:09:59 in
+ZA3Q625 11:42:01 out
+JH007BD 05:10:33 in
+ZA3Q625 06:30:50 in
+JH007BD 12:23:42 out
+ZA3Q625 23:55:00 in
+JH007BD 12:24:23 out
+ZA133CH 17:11:22 out
+JH007BD 18:07:01 out
+DB8888A 06:30:50 in
+05:10:00
+06:30:50
+11:00:00
+12:23:42
+14:00:00
+18:00:00
+23:59:00
+```
+## Sample Output:
+```
+1
+4
+5
+2
+1
+0
+1
+JH007BD ZD00001 07:20:09
+```
