@@ -374,3 +374,22 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 3. 输出某一位 `i` 后，检查下一个不是 0 的位 `n` 是否等于 `i + 1` ，若是，继续输出，若不是，多输出一个 `"ling"`。注意 0 一直连续到最后一位的情况
 
 4. 对于千万位的处理，若 `i = 4` ，直接输出 `"Wan"` ，否则，若有 `n` 跨越 4，且不是从 0 开始跨越，也输出 `"Wan"`
+
+## 1083 List Grades （25 分）
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1083-list-grades-25-%E5%88%86)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1083/main.cpp)
+
+## 1084 Broken Keyboard （20 分）
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1084-broken-keyboard-20-%E5%88%86)
+
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1084/main.cpp)
+
+### 解题思路
+
+打表（散列）
+
+## 1095 Cars on Campus （30 分）
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1095-cars-on-campus-30-%E5%88%86)
+
+[C++ (27/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1095/main.cpp)
