@@ -1,3 +1,5 @@
+Copyright **[拼题A(pintia.cn)](https://pintia.cn/)**
+
 # 1001 A+B Format（20 分）
 [Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1001/Main.java)
 
