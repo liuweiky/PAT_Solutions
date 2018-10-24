@@ -304,6 +304,21 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 使用 dis 数组记录从 1 到 i + 1 的路径长度。则 s 到 t 的顺时针长度为 `dis[t - 1] - dis[s - 1], s < t`。其反方向长度为 `total_dis - dis1`，取两个方向的长度较小值即为答案。
 
+## 1048 Find Coins （25 分）
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805432256675840)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1048/main.cpp)
+
+### 解题思路
+
+暴力求解会超时。
+
+先对拥有的硬币进行排序，外循环从左向右，内循环从右向左检查。
+
+使用散列记录某个面值是否被检查过，若是，则无需再次检查。
+
+若不使用散列，也会超时。
+
 ## 1050 String Subtraction （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805429018673152)
 
