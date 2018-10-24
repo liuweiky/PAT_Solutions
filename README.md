@@ -277,6 +277,12 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1036/main.cpp)
 
+## 1041 Be Unique （20 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805444361437184)
+
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1041/main.cpp)
+
 ## 1042 Shuffling Machine （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805442671132672)
