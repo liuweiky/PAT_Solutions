@@ -389,6 +389,11 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 打表（散列）
 
+## 1092 To Buy or Not to Buy （20 分）
+[Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1092-to-buy-or-not-to-buy-20-%E5%88%86)
+
+[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1092/main.cpp)
+
 ## 1095 Cars on Campus （30 分）
 [Problem description](https://github.com/Heliovic/My_PAT_Answer/blob/master/PROBLEMS.md#1095-cars-on-campus-30-%E5%88%86)
 
