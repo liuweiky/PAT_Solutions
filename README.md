@@ -359,6 +359,15 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 	* 注意，这是不严谨的，因为题目中说明，a, b, c 的范围可以达到 `LONG_LONG_MAX + 1`，但测试用例可以通过。
 * **方法二**
 	* 大数加减法
+	
+## 1070 Mooncake （25 分）
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805399578853376)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1070/main.cpp)
+
+### 解题思路
+
+贪心算法。
 
 ## 1073 Scientific Notation （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805395707510784)
