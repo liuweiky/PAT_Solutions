@@ -294,6 +294,16 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1036/main.cpp)
 
+## 1037 Magic Coupon （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805451374313472)
+
+[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1037/main.cpp)
+
+### 解题思路
+
+贪心。总是选绝对值大的相乘。证明过段时间给出。
+
 ## 1041 Be Unique （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805444361437184)
