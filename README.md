@@ -252,6 +252,16 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1028/main.cpp)
 
+## 1030 Travel Plan （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805464397627392)
+
+[C++ (30/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1030/main.cpp)
+
+### 解题思路
+
+使用 Dijkstra 算法，注意在 dis 相等时，比较路径的 cost，取 cost 小的那条路径。
+
 ## 1031 Hello World for U （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805462535356416)
