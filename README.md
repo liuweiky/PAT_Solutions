@@ -397,6 +397,15 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 * **方法二**
 	* 大数加减法
 	
+## 1067 Sort with Swap(0, i) （25 分）
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805403651522560)
+
+[C++ (19/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1067/main.cpp)
+
+### 解题思路
+
+测试点1、测试点2运行超时
+	
 ## 1070 Mooncake （25 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805399578853376)
 
