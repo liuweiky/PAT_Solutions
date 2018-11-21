@@ -9,12 +9,16 @@ using namespace std;
 int N;
 int numbers[MAX_N];
 int number_pos[MAX_N];
+int min_not_in_pos; // 记忆上次搜到的最小不在其位置上的数
 
 int check()
 {
-    for (int i = 0; i < N; i++)
+    for (int i = min_not_in_pos; i < N; i++)
         if (numbers[i] != i)
+        {
+            min_not_in_pos = i;
             return i;
+        }
     return -1;
 }
 
@@ -36,6 +40,7 @@ void print_arr()
 int main()
 {
     int zero_pos;
+    min_not_in_pos = 1;
     scanf("%d", &N);
     for (int i = 0; i < N; i++)
     {
@@ -54,6 +59,7 @@ int main()
             int n = zero_pos;
             int idx = number_pos[n];
             swap(numbers[zero_pos], numbers[idx]);
+            number_pos[n] = n;
             cnt++;
             zero_pos = idx;
         }
