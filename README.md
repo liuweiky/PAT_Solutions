@@ -404,7 +404,9 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 ### 解题思路
 
-测试点1、测试点2运行超时
+~~测试点1、测试点2运行超时~~
+
+使用 [记忆化搜索](https://github.com/Heliovic/My_PAT_Answer/blob/master/1067/main.cpp#L16) 保存上次搜到的最小不在其位置上的数，下次搜索时从该处而不是起始处开始查找。
 	
 ## 1070 Mooncake （25 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805399578853376)
