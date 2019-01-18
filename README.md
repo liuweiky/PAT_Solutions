@@ -1,23 +1,23 @@
-# My PAT Answers
+# My PAT Solutions
 记录我在刷 PAT 甲级时遇到的一些问题以及总结的经验。做法可能不是最优的，如有更好的解法，欢迎 PR！
 
 ## 1001 A+B Format（20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805528788582400)
 
-[Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1001/Main.java)
+[Java (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1001/Main.java)
 
 ## 1002 A+B for Polynomials（25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805526272000000)
 
-[Java (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1002/Main.java)
+[Java (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1002/Main.java)
 
 ## 1003 Emergency（25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805523835109376)
 
-[Java (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1003/Main.java)
+[Java (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1003/Main.java)
 
 ### 解题思路
 
@@ -27,7 +27,7 @@
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805521431773184)
 
-[Java (30/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1004/Main.java)
+[Java (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1004/Main.java)
 
 ### 解题思路
 
@@ -37,21 +37,21 @@
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805519074574336)
 
-[Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1005/Main.java)
+[Java (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1005/Main.java)
 
 ## 1006 Sign In and Sign Out（25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805516654460928)
 
-[Java (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1006/Main.java)
+[Java (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1006/Main.java)
 
 ## 1007 Maximum Subsequence Sum（25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805514284679168)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1007/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1007/main.cpp)
 
-[Java (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1007/Main.java)
+[Java (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1007/Main.java)
 
 ### 解题思路
 
@@ -61,21 +61,21 @@
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805511923286016)
 
-[Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1008/Main.java)
+[Java (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1008/Main.java)
 
 ## 1009 Product of Polynomials（25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805509540921344)
 
-[Java (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1009/Main.java)
+[Java (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1009/Main.java)
 
 ## 1010 Radix （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805507225665536)
 
-[C++ (24/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1010/main.cpp)
+[C++ (24/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1010/main.cpp)
 
-[Java (23/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1010/Main.java)
+[Java (23/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1010/Main.java)
 
 ### 解题思路
 
@@ -93,15 +93,15 @@
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805504927186944)
 
-[Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1011/Main.java)
+[Java (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1011/Main.java)
 
 ## 1012 The Best Rank （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805502658068480)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1012/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1012/main.cpp)
 
-[Java (19/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1012/Main.java)
+[Java (19/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1012/Main.java)
 
 ### 解题思路
 
@@ -113,9 +113,9 @@
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805500414115840)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1013/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1013/main.cpp)
 
-[Java (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1013/Main.java)
+[Java (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1013/Main.java)
 
 ### 解题思路
 去掉指定的 city 后，多次在主程序中 DFS，使得 visit 均为 1。主程序中 DFS 的次数即为图的连通分量数。若连通分量数为 n，则需要再加 n-1 条边使得所有连通分量连通。
@@ -124,7 +124,7 @@
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805498207911936)
 
-[Java (30/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1014/Main.java)
+[Java (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1014/Main.java)
 
 ### 解题思路
 
@@ -134,7 +134,7 @@
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805495863296000)
 
-[Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1015/Main.java)
+[Java (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1015/Main.java)
 
 ### 解题思路
 
@@ -146,17 +146,17 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805493648703488)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1016/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1016/main.cpp)
 
-[Java (15/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1016/Main.java)
+[Java (15/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1016/Main.java)
 
 ## 1017 Queueing at Bank （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805491530579968)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1017/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1017/main.cpp)
 
-[Java (23/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1017/Main.java)
+[Java (23/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1017/Main.java)
 
 ### 解题思路
 
@@ -166,7 +166,7 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805489282433024)
 
-[C++ (30/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1018/main.cpp)
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1018/main.cpp)
 
 ### 解题思路
 
@@ -178,13 +178,13 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805487143337984)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1019/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1019/main.cpp)
 
 ## 1020 Tree Traversals （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805485033603072)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1020/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1020/main.cpp)
 
 ### 解题思路
 
@@ -198,7 +198,7 @@ Reversible primes 定义：在十进制下是质数，转为相应进制反转�
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805482919673856)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1021/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1021/main.cpp)
 
 ### 解题思路
 
@@ -208,7 +208,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805480801550336)
 
-[C++ (30/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1022/main.cpp)
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1022/main.cpp)
 
 ### 解题思路
 
@@ -218,45 +218,45 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805478658260992)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1023/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1023/main.cpp)
 
 ## 1024 Palindromic Number （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805476473028608)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1024/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1024/main.cpp)
 
 ## 1025 PAT Ranking （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805474338127872)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1025/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1025/main.cpp)
 
 ## 1026 Table Tennis （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805472333250560)
 
-[C++ (12/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1026/main.cpp)
+[C++ (12/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1026/main.cpp)
 
 ## 1027 Colors in Mars （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805470349344768)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1027/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1027/main.cpp)
 
-[Java (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1027/Main.java)
+[Java (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1027/Main.java)
 
 ## 1028 List Sorting （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805468327690240)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1028/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1028/main.cpp)
 
 ## 1030 Travel Plan （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805464397627392)
 
-[C++ (30/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1030/main.cpp)
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1030/main.cpp)
 
 ### 解题思路
 
@@ -266,7 +266,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805462535356416)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1031/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1031/main.cpp)
 
 ### 解题思路
 
@@ -279,7 +279,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805458722734080)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1033/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1033/main.cpp)
 
 ### 解题思路
 
@@ -296,19 +296,19 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805454989803520)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1035/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1035/main.cpp)
 
 ## 1036 Boys vs Girls （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805453203030016)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1036/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1036/main.cpp)
 
 ## 1037 Magic Coupon （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805451374313472)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1037/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1037/main.cpp)
 
 ### 解题思路
 
@@ -318,13 +318,13 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805444361437184)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1041/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1041/main.cpp)
 
 ## 1042 Shuffling Machine （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805442671132672)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1042/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1042/main.cpp)
 
 ### 解题思路
 
@@ -333,7 +333,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1046 Shortest Distance （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805435700199424)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1046/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1046/main.cpp)
 
 ### 解题思路
 
@@ -344,7 +344,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1048 Find Coins （25 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805432256675840)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1048/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1048/main.cpp)
 
 ### 解题思路
 
@@ -359,7 +359,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1050 String Subtraction （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805429018673152)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1050/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1050/main.cpp)
 
 ### 解题思路
 散列表
@@ -367,17 +367,17 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1055 The World's Richest （25 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805421066272768)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1055/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1055/main.cpp)
 
 ## 1061 Dating （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805411985604608)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1061/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1061/main.cpp)
 
 ## 1062 Talent and Virtue （25 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805410555346944)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1062/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1062/main.cpp)
 
 ### 解题思路
 
@@ -386,7 +386,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1065 A+B and C (64bit) （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805406352654336)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1065/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1065/main.cpp)
 
 ### 解题思路
 
@@ -400,18 +400,18 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1067 Sort with Swap(0, i) （25 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805403651522560)
 
-[C++ (19/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1067/main.cpp)
+[C++ (19/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1067/main.cpp)
 
 ### 解题思路
 
 ~~测试点1、测试点2运行超时~~
 
-使用 [记忆化搜索](https://github.com/Heliovic/My_PAT_Answer/blob/master/1067/main.cpp#L16) 保存上次搜到的最小不在其位置上的数，下次搜索时从该处而不是起始处开始查找。
+使用 [记忆化搜索](https://github.com/Heliovic/PAT_Solutions/blob/master/1067/main.cpp#L16) 保存上次搜到的最小不在其位置上的数，下次搜索时从该处而不是起始处开始查找。
 	
 ## 1070 Mooncake （25 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805399578853376)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1070/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1070/main.cpp)
 
 ### 解题思路
 
@@ -420,7 +420,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1073 Scientific Notation （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805395707510784)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1073/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1073/main.cpp)
 
 ### 解题思路
 
@@ -429,7 +429,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1075 PAT Judge （25 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805393241260032)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1075/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1075/main.cpp)
 
 ### 解题思路
 
@@ -440,7 +440,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1077 Kuchiguse （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805390896644096)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1077/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1077/main.cpp)
 
 ### 解题思路
 
@@ -449,7 +449,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1082 Read Number in Chinese （25 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805385053978624)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1082/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1082/main.cpp)
 
 ### 解题思路
 
@@ -464,12 +464,12 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1083 List Grades （25 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805383929905152)
 
-[C++ (25/25)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1083/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1083/main.cpp)
 
 ## 1084 Broken Keyboard （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805382902300672)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1084/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1084/main.cpp)
 
 ### 解题思路
 
@@ -478,9 +478,9 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1092 To Buy or Not to Buy （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805374509498368)
 
-[C++ (20/20)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1092/main.cpp)
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1092/main.cpp)
 
 ## 1095 Cars on Campus （30 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805371602845696)
 
-[C++ (27/30)](https://github.com/Heliovic/My_PAT_Answer/blob/master/1095/main.cpp)
+[C++ (27/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1095/main.cpp)
