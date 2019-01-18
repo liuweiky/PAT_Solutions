@@ -5,15 +5,21 @@
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805528788582400)
 
-[Java (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1001/Main.java)
-
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1001/main.cpp)
+
+[Java (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1001/Main.java)
 
 ## 1002 A+B for Polynomials（25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805526272000000)
 
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1002/main.cpp)
+
 [Java (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1002/Main.java)
+
+### 解题思路
+
+对于 C++ 版本的算法，此题并未特别说明指数为整数，但测试用例均通过。
 
 ## 1003 Emergency（25 分）
 
