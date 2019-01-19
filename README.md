@@ -53,7 +53,13 @@ Java: 此题较难构建左右子树的指针结构。利用数组保存标号�
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805519074574336)
 
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1005/main.cpp)
+
 [Java (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1005/Main.java)
+
+### 解题思路
+
+此题中 N 可以取到 10^100，使用 unsigned long long 也会溢出，因此应当作字符串处理该数。
 
 ## 1006 Sign In and Sign Out（25 分）
 
