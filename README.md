@@ -35,17 +35,19 @@
 
 先用 dijkstra 算法求出最短路，使用 **```vector<int> path[MAX_N]```** 保存结点所有可能最短路径上的前驱结点。之后从终点backtrack回溯路径，并累加保存一路上的team数。当达到起点时，更新路径数和最大team数。
 
-
-
 ## 1004 Counting Leaves（30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805521431773184)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1004/main.cpp)
 
 [Java (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1004/Main.java)
 
 ### 解题思路
 
-此题较难构建左右子树的指针结构。利用数组保存标号对应结点的子节点。如：对于 id 号结点，其子节点为 nodes[id].childs 的 arraylist。构建完毕后简单地 dfs 或 bfs 搜索并记录即可。
+C++: 使用 **```vector<int> tree[MAX_N]```** 的形式保存各个 ID 结点拥有的子结点 ID。使用 DFS 递归传递层数，统计各层叶节点数。
+
+Java: 此题较难构建左右子树的指针结构。利用数组保存标号对应结点的子节点。如：对于 id 号结点，其子节点为 nodes[id].childs 的 arraylist。构建完毕后简单地 dfs 或 bfs 搜索并记录即可。
 
 ## 1005 Spell It Right（20 分）
 
