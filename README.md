@@ -25,11 +25,17 @@
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805523835109376)
 
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1003/main.cpp)
+
 [Java (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1003/Main.java)
 
 ### 解题思路
 
-先通过 dijkstra 算法求出最短的路径长度，之后从终点回溯 dfs，记录满足：dis[u] + cost(u, v) = dis[v] 的点，生成路径。递归出口：u 是起点。
+~~先通过 dijkstra 算法求出最短的路径长度，之后从终点回溯 dfs，记录满足：dis[u] + cost(u, v) = dis[v] 的点，生成路径。递归出口：u 是起点。~~
+
+先用 dijkstra 算法求出最短路，使用 **```vector<int> path[MAX_N]```** 保存结点所有可能最短路径上的前驱结点。之后从终点backtrack回溯路径，并累加保存一路上的team数。当达到起点时，更新路径数和最大team数。
+
+
 
 ## 1004 Counting Leaves（30 分）
 
