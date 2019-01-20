@@ -93,6 +93,8 @@ Java: 此题较难构建左右子树的指针结构。利用数组保存标号�
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805509540921344)
 
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1009/main.cpp)
+
 [Java (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1009/Main.java)
 
 ## 1010 Radix （25 分）
