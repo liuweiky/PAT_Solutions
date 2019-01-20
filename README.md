@@ -85,6 +85,8 @@ Java: 此题较难构建左右子树的指针结构。利用数组保存标号�
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805511923286016)
 
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1008/main.cpp)
+
 [Java (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1008/Main.java)
 
 ## 1009 Product of Polynomials（25 分）
