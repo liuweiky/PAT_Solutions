@@ -103,7 +103,7 @@ Java: 此题较难构建左右子树的指针结构。利用数组保存标号�
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1010/main.cpp)
 
-[Java (23/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1010/Main.java)
+[Java (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1010/Main.java)
 
 ### 解题思路
 
