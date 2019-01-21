@@ -101,7 +101,7 @@ Java: 此题较难构建左右子树的指针结构。利用数组保存标号�
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805507225665536)
 
-[C++ (24/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1010/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1010/main.cpp)
 
 [Java (23/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1010/Main.java)
 
@@ -115,7 +115,8 @@ Java: 此题较难构建左右子树的指针结构。利用数组保存标号�
 
 * 要使用 unsigned long long，注意输出时的格式说明符： *"%llu"*。
 
-【测试点 19】仍然过不了， 求大神指教。
+~~【测试点 19】仍然过不了， 求大神指教。~~
+原来是因为最小进制大于小于号写反了🤣
 
 ## 1011 World Cup Betting （20 分）
 

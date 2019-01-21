@@ -39,7 +39,7 @@ unsigned long long get_minradix(char c[16])
     for (unsigned long long i = 1; i < strlen(c); i++)
     {
         unsigned long long t = c[i] >= 'a' ? c[i] - 'a' + 10 : c[i] - '0';
-        min_r = t < min_r ? t : min_r;
+        min_r = t > min_r ? t : min_r;
     }
     return min_r + 1;
 }
@@ -76,16 +76,6 @@ int main()
         else
             low = mid + 1;
     }
-
-    /*for (long long i = get_minradix(N2); i <= max(k + 1, get_minradix(N2)); i++)
-    {
-        long long k0 = to_deci(N2, i);
-        if (k == k0)
-        {
-            printf("%lld", i);
-            return 0;
-        }
-    }*/
 
     printf("Impossible");
 
