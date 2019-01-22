@@ -155,11 +155,13 @@ Java: 此题较难构建左右子树的指针结构。利用数组保存标号�
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805498207911936)
 
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1014/main.cpp)
+
 [Java (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1014/Main.java)
 
 ### 解题思路
 
-复杂模拟。
+复杂模拟。置当前时间为8:00。开始时先将服务窗口填满（K > M * N）或将所有人置入服务窗口内（K <= M * N）。置每个窗口的每个客户初始剩余服务时间为每个客户的总服务时间。之后只要窗口内还有未服务的客户，就从每个窗口的队首中选择一个具有最短剩余服务时间的客户，将他从窗口队首移除，并更新当前时间和其他用户的剩余服务时间 **（当前时间加上该最短剩余服务时间，其他用户的剩余服务时间减去最短剩余服务时间）**，并记录被移除的用户服务完成时间为当前时间。再从线外等待客户中按序取出客户，放入前一个被移除的客户的窗口中排队等待。
 
 ## 1015 Reversible Primes （20 分）
 
