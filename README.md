@@ -175,7 +175,7 @@ Java: 此题较难构建左右子树的指针结构。利用数组保存标号�
 
 Reversible primes 定义：在十进制下是质数，转为相应进制反转后再转回十进制后还是质数。
 
-使用 C++ 时注意 memcpy 的使用。
+使用 C++ 时注意 [memcpy](https://github.com/Heliovic/PAT_Solutions/blob/master/1015/main.cpp#L32) 的使用。
 
 使用 Java 时要善于使用 Integer 和 String 的进制转换函数。
 
