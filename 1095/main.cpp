@@ -20,14 +20,8 @@ struct record
     int time_tag;
 };
 
-struct valid_rec
-{
-    record* rf;
-    record* rt;
-};
-
 vector<record*> recs;
-vector<valid_rec*> valrecs;
+vector<record*> valrecs;
 
 map<string, int> mp;
 
@@ -38,9 +32,9 @@ bool cmp(record* r1, record* r2)
     return (r1->time_tag < r2->time_tag);
 }
 
-bool cmp1(valid_rec* v1, valid_rec* v2)
+bool cmp1(record* r1, record* r2)
 {
-    return v1->rt->time_tag < v2->rt->time_tag;
+    return r1->time_tag < r2->time_tag;
 }
 
 int main()
@@ -61,77 +55,51 @@ int main()
     }
 
     sort(recs.begin(), recs.end(), cmp);
+    int max_time = -1;
     for (int i = 0; i < N; i++)
     {
         if (recs[i]->type == IN)
         {
             if (i != N - 1 && recs[i + 1]->type == OUT && strcmp(recs[i]->pnum, recs[i + 1]->pnum) == 0)
             {
-                valid_rec* v = new valid_rec;
-                v->rf = recs[i];
-                v->rt = recs[i + 1];
-                valrecs.push_back(v);
+                valrecs.push_back(recs[i]);
+                valrecs.push_back(recs[i + 1]);
+                int time;
+                time = recs[i + 1]->time_tag - recs[i]->time_tag;
+
+                if (mp[recs[i]->pnum] == NULL)
+                    mp[recs[i]->pnum] = time;
+                else
+                    mp[recs[i]->pnum] += time;
+                if (mp[recs[i]->pnum] > max_time)
+                    max_time = mp[recs[i]->pnum];
                 i++;
             }
         }
     }
 
-    for (int i = 0; i < valrecs.size(); i++)
-    {
-        int time;
-        time = valrecs[i]->rt->time_tag - valrecs[i]->rf->time_tag;
-
-        if (mp[valrecs[i]->rf->pnum] == NULL)
-            mp[valrecs[i]->rf->pnum] = time;
-        else
-            mp[valrecs[i]->rf->pnum] += time;
-    }
-
-    int max_time = -1;
-    vector<string> pns;
-
-    for (map<string, int>::iterator it = mp.begin(); it != mp.end(); it++)
-    {
-        if (it->second > max_time)
-        {
-            max_time = it->second;
-            pns.clear();
-            pns.push_back(it->first);
-        } else if (it->second == max_time)
-        {
-            pns.push_back(it->first);
-        }
-    }
-
-    int start = 0;
+    int p = 0;
+    int cnt = 0;
     sort(valrecs.begin(), valrecs.end(), cmp1);
 
     for (int i = 0; i < K; i++)
     {
         int h, m, s;
         scanf("%d:%d:%d", &h, &m, &s);
-
         int t = h * 3600 + m * 60 + s;
-
-        int cnt = 0;
-
-        for (int j = start; j < valrecs.size(); j++)
+        while (p < valrecs.size() && valrecs[p]->time_tag <= t)
         {
-            if (valrecs[j]->rf->time_tag <= t && valrecs[j]->rt->time_tag > t)
+            if (valrecs[p]->type == IN)
                 cnt++;
-            else
-            {
-                if (valrecs[j]->rt->time_tag < t)
-                {
-                    start = j;
-                }
-            }
+            else cnt--;
+            p++;
         }
         printf("%d\n", cnt);
     }
 
-    for (int i = 0; i < pns.size(); i++)
-        printf("%s ", pns[i].c_str());
+    for (map<string, int>::iterator it = mp.begin(); it != mp.end(); it++)
+        if (it->second == max_time)
+            printf("%s ", it->first.c_str());
 
     int h = max_time / 3600;
     int m = (max_time / 60) % 60;

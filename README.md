@@ -520,4 +520,8 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1095 Cars on Campus （30 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805371602845696)
 
-[C++ (27/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1095/main.cpp)
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1095/main.cpp)
+
+### 解题思路
+
+对于无序记录，先按照ID排序，筛选出有效记录。之后对筛选出的有效记录按照时间排序，根据记录进出情况调整当前车辆数目。
