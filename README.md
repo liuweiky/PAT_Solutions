@@ -406,6 +406,14 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1055/main.cpp)
 
+## 1058 A+B in Hogwarts （20 分）
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805416519647232)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1058/main.cpp)
+
+### 解题思路
+任意进制转换
+
 ## 1061 Dating （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805411985604608)
 
