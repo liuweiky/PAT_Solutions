@@ -491,6 +491,15 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 使用 `gets()` 编译失败。
 
+## 1080 Graduate Admission （30 分）
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805387268571136)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1080/main.cpp)
+
+### 解题思路
+
+排序、模拟。
+
 ## 1082 Read Number in Chinese （25 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805385053978624)
 
