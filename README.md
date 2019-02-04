@@ -445,7 +445,7 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 ## 1067 Sort with Swap(0, i) （25 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805403651522560)
 
-[C++ (19/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1067/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1067/main.cpp)
 
 ### 解题思路
 
