@@ -351,6 +351,20 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 贪心。总是选绝对值大的相乘。证明过段时间给出。
 
+## 1038 Recover the Smallest Number （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805449625288704)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1038/main.cpp)
+
+### 解题思路
+
+贪心。将每个子字符串按照以下方法排序：
+
+对于子串集合中的任意两个元素Sa, Sb，若组合形成的数字 ```SaSb < SbSa```，则将 Sa 放在 Sb 的前面。反之，将 Sb 放在 Sa 的前面。
+
+之后将排好序的所有子串拼接，并去掉前导0即为所求答案。
+
 ## 1041 Be Unique （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805444361437184)
