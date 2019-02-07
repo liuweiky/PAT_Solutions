@@ -381,6 +381,16 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 简单模拟。使用 stringstream 将 int 转为 string。
 
+## 1044 Shopping in Mars （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805439202443264)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1044/main.cpp)
+
+### 解题思路
+
+二分查找。使用 ```chain_sum[i]``` 保存从第一个元素累加到第 i 个元素的值。```chain_sum[j] - chain_sum[i - 1]``` 即表示从第 i 个元素累加到第 j 个元素的值。这节省了重复累加的时间。
+
 ## 1046 Shortest Distance （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805435700199424)
 
