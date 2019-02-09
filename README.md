@@ -553,6 +553,17 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 打表（散列）
 
+## 1085 Perfect Sequence （25 分）
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805381845336064)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1085/main.cpp)
+
+### 解题思路
+
+二分查找。先对原数列非降序排序。外层循环遍历所有从第 i 个元素开始的子串，内层循环使用二分查找找到满足 M(mid) ≤ m(i) × p 的最大 mid，mid 在 [i, N - 1]范围内。[二分指针调整逻辑](https://github.com/Heliovic/PAT_Solutions/blob/master/1085/main.cpp#L30)
+
+> 也可以使用 **Two Pointers** 方法。
+
 ## 1092 To Buy or Not to Buy （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805374509498368)
 
