@@ -564,6 +564,19 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 > 也可以使用 **Two Pointers** 方法。
 
+## 1089 Insert or Merge （25 分）
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805377432928256)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1089/main.cpp)
+
+### 解题思路
+
+模拟每次排序迭代时数组的情况。
+
+归并排序通过[自底向上](https://github.com/Heliovic/PAT_Solutions/blob/master/1089/main.cpp#L36)按照步长迭代，而非递归实现。
+
+[Trick](https://github.com/Heliovic/PAT_Solutions/blob/master/1089/main.cpp#L38): 借助STL，在归并排序中并不需要手动实现具体的排序过程。
+
 ## 1092 To Buy or Not to Buy （20 分）
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805374509498368)
 
