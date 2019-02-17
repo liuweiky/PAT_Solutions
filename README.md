@@ -289,6 +289,16 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1028/main.cpp)
 
+## 1029 Median （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805466364755968)
+
+[C++ (22/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1030/main.cpp)
+
+### 解题思路
+
+Two Pointers。最后一个测试点内存超限。
+
 ## 1030 Travel Plan （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805464397627392)
