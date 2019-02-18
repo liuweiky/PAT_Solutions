@@ -402,6 +402,7 @@ Two Pointers。最后一个测试点内存超限。
 二分查找。使用 ```chain_sum[i]``` 保存从第一个元素累加到第 i 个元素的值。```chain_sum[j] - chain_sum[i - 1]``` 即表示从第 i 个元素累加到第 j 个元素的值。这节省了重复累加的时间。
 
 ## 1046 Shortest Distance （20 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805435700199424)
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1046/main.cpp)
@@ -413,6 +414,7 @@ Two Pointers。最后一个测试点内存超限。
 使用 dis 数组记录从 1 到 i + 1 的路径长度。则 s 到 t 的顺时针长度为 `dis[t - 1] - dis[s - 1], s < t`。其反方向长度为 `total_dis - dis1`，取两个方向的长度较小值即为答案。
 
 ## 1048 Find Coins （25 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805432256675840)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1048/main.cpp)
@@ -428,6 +430,7 @@ Two Pointers。最后一个测试点内存超限。
 若不使用散列，也会超时。
 
 ## 1050 String Subtraction （20 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805429018673152)
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1050/main.cpp)
@@ -436,11 +439,13 @@ Two Pointers。最后一个测试点内存超限。
 散列表
 
 ## 1055 The World's Richest （25 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805421066272768)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1055/main.cpp)
 
 ## 1058 A+B in Hogwarts （20 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805416519647232)
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1058/main.cpp)
@@ -449,11 +454,13 @@ Two Pointers。最后一个测试点内存超限。
 任意进制转换
 
 ## 1061 Dating （20 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805411985604608)
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1061/main.cpp)
 
 ## 1062 Talent and Virtue （25 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805410555346944)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1062/main.cpp)
@@ -463,6 +470,7 @@ Two Pointers。最后一个测试点内存超限。
 将各类人抽象成一个可以比较的数 `type` 方便排序。
 
 ## 1065 A+B and C (64bit) （20 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805406352654336)
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1065/main.cpp)
@@ -477,6 +485,7 @@ Two Pointers。最后一个测试点内存超限。
 	* 大数加减法
 	
 ## 1067 Sort with Swap(0, i) （25 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805403651522560)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1067/main.cpp)
@@ -486,8 +495,15 @@ Two Pointers。最后一个测试点内存超限。
 ~~测试点1、测试点2运行超时~~
 
 使用 [记忆化搜索](https://github.com/Heliovic/PAT_Solutions/blob/master/1067/main.cpp#L16) 保存上次搜到的最小不在其位置上的数，下次搜索时从该处而不是起始处开始查找。
-	
+
+## 1069 The Black Hole of Numbers （20 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805400954585088)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1069/main.cpp)
+
 ## 1070 Mooncake （25 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805399578853376)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1070/main.cpp)
@@ -497,6 +513,7 @@ Two Pointers。最后一个测试点内存超限。
 贪心算法。
 
 ## 1073 Scientific Notation （20 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805395707510784)
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1073/main.cpp)
@@ -506,6 +523,7 @@ Two Pointers。最后一个测试点内存超限。
 分类讨论，模拟移位。
 
 ## 1075 PAT Judge （25 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805393241260032)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1075/main.cpp)
@@ -517,6 +535,7 @@ Two Pointers。最后一个测试点内存超限。
 **以用户 id 为数组索引节省运行时间。**
 
 ## 1077 Kuchiguse （20 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805390896644096)
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1077/main.cpp)
@@ -526,6 +545,7 @@ Two Pointers。最后一个测试点内存超限。
 使用 `gets()` 编译失败。
 
 ## 1080 Graduate Admission （30 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805387268571136)
 
 [C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1080/main.cpp)
@@ -535,6 +555,7 @@ Two Pointers。最后一个测试点内存超限。
 排序、模拟。
 
 ## 1082 Read Number in Chinese （25 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805385053978624)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1082/main.cpp)
@@ -550,11 +571,13 @@ Two Pointers。最后一个测试点内存超限。
 4. 对于千万位的处理，若 `i = 4` ，直接输出 `"Wan"` ，否则，若有 `n` 跨越 4，且不是从 0 开始跨越，也输出 `"Wan"`
 
 ## 1083 List Grades （25 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805383929905152)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1083/main.cpp)
 
 ## 1084 Broken Keyboard （20 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805382902300672)
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1084/main.cpp)
@@ -564,6 +587,7 @@ Two Pointers。最后一个测试点内存超限。
 打表（散列）
 
 ## 1085 Perfect Sequence （25 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805381845336064)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1085/main.cpp)
@@ -575,6 +599,7 @@ Two Pointers。最后一个测试点内存超限。
 > 也可以使用 **Two Pointers** 方法。
 
 ## 1089 Insert or Merge （25 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805377432928256)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1089/main.cpp)
@@ -588,11 +613,13 @@ Two Pointers。最后一个测试点内存超限。
 [Trick](https://github.com/Heliovic/PAT_Solutions/blob/master/1089/main.cpp#L38): 借助STL，在归并排序中并不需要手动实现具体的排序过程。
 
 ## 1092 To Buy or Not to Buy （20 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805374509498368)
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1092/main.cpp)
 
 ## 1093 Count PAT's （25 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805373582557184)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1093/main.cpp)
@@ -602,6 +629,7 @@ Two Pointers。最后一个测试点内存超限。
 确定出所有的 'A' 所在位置中，左侧的 'P' 数目 pcnt 和右侧的 'T' 数目 tcnt 。以该 'A' 为中心形成的 "PAT" 数目即为 pcnt * tcnt。总的 "PAT" 数目为所有的 'A' 形成的 "PAT" 数目之和。
 
 ## 1095 Cars on Campus （30 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805371602845696)
 
 [C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1095/main.cpp)
@@ -611,6 +639,7 @@ Two Pointers。最后一个测试点内存超限。
 对于无序记录，先按照ID排序，筛选出有效记录。之后对筛选出的有效记录按照时间排序，根据记录进出情况调整当前车辆数目。
 
 ## 1101 Quick Sort （25 分）
+
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805366343188480)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1101/main.cpp)
