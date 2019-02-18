@@ -609,3 +609,14 @@ Two Pointers。最后一个测试点内存超限。
 ### 解题思路
 
 对于无序记录，先按照ID排序，筛选出有效记录。之后对筛选出的有效记录按照时间排序，根据记录进出情况调整当前车辆数目。
+
+## 1101 Quick Sort （25 分）
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805366343188480)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1101/main.cpp)
+
+### 解题思路
+
+使用两个数组 ```int left_max[MAX_N]; int right_min[MAX_N];``` 分别记录第 i 个元素左边最大的数和右边最小的数。若满足 ```left_max[i] <= numbers[i] && right_min[i] >= numbers[i]```，则第 i 个数属于 *pivot candidates*
+
+此题若不加入最后一行以打印换行，【测试点 2】会格式错误。
