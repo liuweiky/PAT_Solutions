@@ -649,3 +649,15 @@ Two Pointers。最后一个测试点内存超限。
 使用两个数组 ```int left_max[MAX_N]; int right_min[MAX_N];``` 分别记录第 i 个元素左边最大的数和右边最小的数。若满足 ```left_max[i] <= numbers[i] && right_min[i] >= numbers[i]```，则第 i 个数属于 *pivot candidates*
 
 此题若不加入最后一行以打印换行，【测试点 2】会格式错误。
+
+## 1104 Sum of Number Segments （20 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805363914686464)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1104/main.cpp)
+
+### 解题思路
+
+推导出 numbers[s] 在 sum 中出现的次数（s 从 0 开始）。
+
+numbers[s] 前面有 s 个数字，对于这 s 个数字中的特定一个 numbers[k]，以 numbers[k] 为首形成的片段会累加 numbers[s] **N - s** （程序中为 t ）次，这是因为，numbers[s]及其之后有 N - s 个数，numbers[k] 为首形成的片段会使这 N - s 个数各作为结尾 1 次。其次，以numbers[s] 为首的片段也会累加 numbers[s] **N - s**。所以最后 numbers[s] 共被累加了 *s * t + t = (s + 1) * t* 次。
