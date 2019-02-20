@@ -672,6 +672,18 @@ Two Pointers。最后一个测试点内存超限。
 
 对于无序记录，先按照ID排序，筛选出有效记录。之后对筛选出的有效记录按照时间排序，根据记录进出情况调整当前车辆数目。
 
+## 1096 Consecutive Factors （20 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805370650738688)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1096/main.cpp)
+
+### 解题思路
+
+若 N 是质数，则显然只有 N 本身。
+
+否则，对每个 i <= sqrt (N)，检查从 i 开始的连续的数之积是否能整除 N。记录下最长的连续数起止位置并取最长。
+
 ## 1101 Quick Sort （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805366343188480)
