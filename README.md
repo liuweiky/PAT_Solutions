@@ -558,6 +558,16 @@ Two Pointers。最后一个测试点内存超限。
 
 使用 `gets()` 编译失败。
 
+## 1078 Hashing （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805389634158592)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1078/main.cpp)
+
+### 解题思路
+
+质数判断，平方探查。p = hash(i) + d * d。其中 d = 1, 2, ..., M - 1。M 是哈希表容量。
+
 ## 1080 Graduate Admission （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805387268571136)
