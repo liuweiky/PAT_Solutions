@@ -612,6 +612,16 @@ Two Pointers。最后一个测试点内存超限。
 
 > 也可以使用 **Two Pointers** 方法。
 
+## 1088 Rational Arithmetic （20 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805378443755520)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1088/main.cpp)
+
+### 解题思路
+
+分数的化简、四则运算。
+
 ## 1089 Insert or Merge （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805377432928256)
