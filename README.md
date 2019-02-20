@@ -450,6 +450,7 @@ Two Pointers。最后一个测试点内存超限。
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1050/main.cpp)
 
 ### 解题思路
+
 散列表
 
 ## 1055 The World's Richest （25 分）
@@ -465,7 +466,18 @@ Two Pointers。最后一个测试点内存超限。
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1058/main.cpp)
 
 ### 解题思路
+
 任意进制转换
+
+## 1059 Prime Factors （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805415005503488)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1059/main.cpp)
+
+### 解题思路
+
+[质因子分解](https://github.com/Heliovic/AlgorithmSet/blob/master/PrimeFactors/main.cpp)，注意该算法输入出现质数的情况 https://github.com/Heliovic/AlgorithmSet/blob/master/PrimeFactors/main.cpp#L48。
 
 ## 1061 Dating （20 分）
 
