@@ -541,6 +541,20 @@ int main()
 
 将各类人抽象成一个可以比较的数 `type` 方便排序。
 
+## 1063 Set Similarity （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805409175420928)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1063/main.cpp)
+
+### 解题思路
+
+使用 STL 中的 set 去除重复，使用其成员函数进行查找是否有某个元素存在。
+
+不需要生成新 set 计算总数目 https://github.com/Heliovic/PAT_Solutions/blob/master/1063/main.cpp#L46
+
+在 printf 中使用 "%%" 输出 '%' 的符号 https://github.com/Heliovic/PAT_Solutions/blob/master/1063/main.cpp#L51
+
 ## 1065 A+B and C (64bit) （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805406352654336)
