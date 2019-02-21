@@ -375,6 +375,18 @@ Two Pointers。最后一个测试点内存超限。
 
 之后将排好序的所有子串拼接，并去掉前导0即为所求答案。
 
+## 1039 Course List for Student （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805447855292416)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1039/main.cpp)
+
+### 解题思路
+
+STL 的 vector、map 的使用。
+
+注意通过 ```ios::sync_with_stdio(false)``` 来提速 cin。**但这样 cin、cout 便不能再与 scanf、printf 混用。**
+
 ## 1041 Be Unique （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805444361437184)
@@ -477,7 +489,7 @@ Two Pointers。最后一个测试点内存超限。
 
 ### 解题思路
 
-[质因子分解](https://github.com/Heliovic/AlgorithmSet/blob/master/PrimeFactors/main.cpp)，注意该算法输入出现质数的情况 https://github.com/Heliovic/AlgorithmSet/blob/master/PrimeFactors/main.cpp#L48。
+[质因子分解](https://github.com/Heliovic/AlgorithmSet/blob/master/PrimeFactors/main.cpp)，注意该算法输入出现质数的情况 https://github.com/Heliovic/AlgorithmSet/blob/master/PrimeFactors/main.cpp#L48 。
 
 ## 1061 Dating （20 分）
 
