@@ -425,6 +425,40 @@ STL 的 vector、map 的使用。
 
 使用 dis 数组记录从 1 到 i + 1 的路径长度。则 s 到 t 的顺时针长度为 `dis[t - 1] - dis[s - 1], s < t`。其反方向长度为 `total_dis - dis1`，取两个方向的长度较小值即为答案。
 
+## 1047 Student List for Course （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805433955368960)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1047/main.cpp)
+
+### 解题思路
+
+STL 的 vector 使用。
+
+本题若使用 cin、cout 和 ```ios::sync_with_stdio(false)``` 仍然超时。大量数据还是使用 printf、scanf。输入的 char[] 可以直接赋值给 string。string 可以通过 string.c_str() 转换为 char[]。
+
+注意，string.c_str() 返回 const char*。需要使用 const char* 接收，也可以使用 strcpy 拷贝到字符数组。
+
+```cpp
+#include <cstdio>
+#include <string>
+#include <cstring>
+
+using namespace std;
+
+int main()
+{
+	string s = "123";
+	const char* ccp = s.c_str();
+	char cp[16];	// 不可使用 char* cp
+	strcpy(cp, s.c_str());
+	printf("%s\n", s.c_str());
+	printf("%s\n", ccp);
+	printf("%s\n", cp);
+	return 0;
+}
+```
+
 ## 1048 Find Coins （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805432256675840)
