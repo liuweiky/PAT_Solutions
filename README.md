@@ -499,6 +499,16 @@ int main()
 
 散列表
 
+## 1054 The Dominant Color （20 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805422639136768)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1054/main.cpp)
+
+### 解题思路
+
+STL 中 map 的使用。
+
 ## 1055 The World's Richest （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805421066272768)
