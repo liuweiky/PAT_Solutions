@@ -618,6 +618,18 @@ STL 中 map 的使用。
 
 贪心算法。
 
+## 1071 Speech Patterns （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805398257647616)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1071/main.cpp)
+
+### 解题思路
+
+STL 中 map、string 的使用。
+
+> 注意 ```tolower()、isalpha()、isdigit()``` 函数都来自头文件 ```cctype```。
+
 ## 1073 Scientific Notation （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805395707510784)
