@@ -766,6 +766,16 @@ int main()
 
 否则，对每个 i <= sqrt (N)，检查从 i 开始的连续的数之积是否能整除 N。记录下最长的连续数起止位置并取最长。
 
+## 1100 Mars Numbers （20 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805367156883456)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1100/main.cpp)
+
+### 解题思路
+
+STL 的 map 和 string 的使用。
+
 ## 1101 Quick Sort （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805366343188480)
