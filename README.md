@@ -525,6 +525,16 @@ int main()
 
 [质因子分解](https://github.com/Heliovic/AlgorithmSet/blob/master/PrimeFactors/main.cpp)，注意该算法输入出现质数的情况 https://github.com/Heliovic/AlgorithmSet/blob/master/PrimeFactors/main.cpp#L48 。
 
+## 1060 Are They Equal （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805413520719872)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1060/main.cpp)
+
+### 解题思路
+
+字符串处理。
+
 ## 1061 Dating （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805411985604608)
