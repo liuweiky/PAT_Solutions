@@ -15,7 +15,7 @@ int main()
     {
         stack<int> stk;
         bool flag = true;
-        int j = 0, t, pushed = 1;;
+        int j = 0, t, pushed = 1;
         while (j++ < N)
         {
             scanf("%d", &t);
