@@ -499,6 +499,16 @@ int main()
 
 散列表
 
+## 1051 Pop Sequence （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805427332562944)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1051/main.cpp)
+
+### 解题思路
+
+STL 中 stack 的使用。模拟堆栈入栈出栈过程。
+
 ## 1054 The Dominant Color （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805422639136768)
