@@ -890,6 +890,20 @@ STL 的 map 和 string 的使用。
 
 此题若不加入最后一行以打印换行，【测试点 2】会格式错误。
 
+## 1102 Invert a Binary Tree （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805365537882112)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1102/main.cpp)
+
+### 解题思路
+
+二叉树的遍历。
+
+对于只要求输出反转后的二叉树遍历序列，只需对原树在正常的遍历下，调换遍历左右子树的顺序，不必真正进行树结构修改。
+
+注意 ```scanf("%c %c")``` 读入字符时，最后的换行 ```\n``` 不会被读取，需要用 getchar() 读入消除。 https://github.com/Heliovic/PAT_Solutions/blob/master/1102/main.cpp#L77 
+
 ## 1103 Integer Factorization （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805364711604224)
