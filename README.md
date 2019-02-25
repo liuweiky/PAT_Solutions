@@ -776,6 +776,16 @@ STL 中 map、string 的使用。
 
 > 也可以使用 **Two Pointers** 方法。
 
+## 1086 Tree Traversals Again （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805380754817024)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1086/main.cpp)
+
+### 解题思路
+
+根据堆栈进出序列递归构建二叉树。
+
 ## 1088 Rational Arithmetic （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805378443755520)
