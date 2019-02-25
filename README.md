@@ -800,6 +800,16 @@ STL 中 map、string 的使用。
 
 [Trick](https://github.com/Heliovic/PAT_Solutions/blob/master/1089/main.cpp#L38): 借助STL，在归并排序中并不需要手动实现具体的排序过程。
 
+## 1091 Acute Stroke （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805375457411072)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1091/main.cpp)
+
+### 解题思路
+
+BFS。数据量过大使用 DFS 可能会爆栈。
+
 ## 1092 To Buy or Not to Buy （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805374509498368)
