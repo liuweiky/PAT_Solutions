@@ -660,6 +660,16 @@ STL 中 map、string 的使用。
 
 分类讨论，模拟移位。
 
+## 1074 Reversing Linked List （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805394512134144)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1074/main.cpp)
+
+### 解题思路
+
+链表操作。
+
 ## 1075 PAT Judge （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805393241260032)
