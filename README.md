@@ -870,6 +870,16 @@ STL 的 map 和 string 的使用。
 
 此题若不加入最后一行以打印换行，【测试点 2】会格式错误。
 
+## 1103 Integer Factorization （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805364711604224)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1103/main.cpp)
+
+### 解题思路
+
+DFS，回溯。注意，由于加法的可交换性，设本次 DFS 选择的 factor 为 f，则下一次 DFS 的 factor 上界就是 f，即，相邻轮的 factor 上界是[单调不增](https://github.com/Heliovic/PAT_Solutions/blob/master/1103/main.cpp#L40)的。
+
 ## 1104 Sum of Number Segments （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805363914686464)
