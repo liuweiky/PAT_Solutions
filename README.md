@@ -525,6 +525,16 @@ STL 中 map 的使用。
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1055/main.cpp)
 
+## 1056 Mice and Rice （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805419468242944)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1056/main.cpp)
+
+### 解题思路
+
+STL 中 queue 的使用。
+
 ## 1058 A+B in Hogwarts （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805416519647232)
