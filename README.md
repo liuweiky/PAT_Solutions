@@ -838,6 +838,16 @@ STL 中 map、string 的使用。
 
 否则，对每个 i <= sqrt (N)，检查从 i 开始的连续的数之积是否能整除 N。记录下最长的连续数起止位置并取最长。
 
+## 1097 Deduplication on a Linked List （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805369774129152)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1097/main.cpp)
+
+### 解题思路
+
+链表去重，散列打表。
+
 ## 1100 Mars Numbers （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805367156883456)
