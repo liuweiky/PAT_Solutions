@@ -519,6 +519,16 @@ int main()
 
 STL 中 stack 的使用。模拟堆栈入栈出栈过程。
 
+## 1052 Linked List Sorting （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805425780670464)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1052/main.cpp)
+
+### 解题思路
+
+链表操作，简单问题简单做。
+
 ## 1054 The Dominant Color （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805422639136768)
