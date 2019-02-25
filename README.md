@@ -322,6 +322,16 @@ Two Pointers。最后一个测试点内存超限。
 * U 越接近 “square” 形状越好 -> n1 与 n2 之差的绝对值越小越好
 * n2 ≤ n1 = n3
 
+## 1032 Sharing （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805460652113920)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1032/main.cpp)
+
+### 解题思路
+
+链表操作。使用[地址标志](https://github.com/Heliovic/PAT_Solutions/blob/master/1032/main.cpp#L37)记录是否出现过该地址，一旦两者都第一次出现过，说明这是公共后缀的起点。
+
 ## 1033 To Fill or Not to Fill （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805458722734080)
