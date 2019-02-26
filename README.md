@@ -820,6 +820,16 @@ STL 中 map、string 的使用。
 
 [Trick](https://github.com/Heliovic/PAT_Solutions/blob/master/1089/main.cpp#L38): 借助STL，在归并排序中并不需要手动实现具体的排序过程。
 
+## 1090 Highest Price in Supply Chain （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805376476626944)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1090/main.cpp)
+
+### 解题思路
+
+树的遍历，DFS。
+
 ## 1091 Acute Stroke （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805375457411072)
