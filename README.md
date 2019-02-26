@@ -722,6 +722,16 @@ STL 中 map、string 的使用。
 
 质数判断，平方探查。p = hash(i) + d * d。其中 d = 1, 2, ..., M - 1。M 是哈希表容量。
 
+## 1079 Total Sales of Supply Chain （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805388447170560)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1079/main.cpp)
+
+### 解题思路
+
+树的遍历，DFS。
+
 ## 1080 Graduate Admission （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805387268571136)
