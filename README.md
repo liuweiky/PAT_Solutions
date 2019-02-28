@@ -349,6 +349,22 @@ Two Pointers。最后一个测试点内存超限。
 3. 若找不到加油站的 price 比当前低，但能找到**能达到的加油站**中 price 最小的加油站，在当前加油站加满油后，更新当前加油站为这个加油站，转到0。否则：
 4. 若找不到**能达到的加油站**中 price 最小的加油站，说明在车能达到的范围内已无加油站，输出最大能达到的距离，返回。
 
+## 1034 Head of a Gang （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805456881434624)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1034/main.cpp)
+
+### 解题思路
+
+图论的题目中节点 id 为**字符或字符串**时用 [正反map](https://github.com/Heliovic/PAT_Solutions/blob/master/1034/main.cpp#L73) 处理。
+
+通过 DFS 求出各个连通分量及其对应的信息。只需求边权时，将有向图转化为无向图简化（边权为两个有向边（若有）权重之和）。
+
+当 DFS 求连通分量可能出现环时，使用 [visit_edge](https://github.com/Heliovic/PAT_Solutions/blob/master/1034/main.cpp#L48) 保证能够遍历到各个边。
+
+使用 map 保存答案， 并保证答案按[字典序](https://github.com/Heliovic/PAT_Solutions/blob/master/1034/main.cpp#L106)输出。
+
 ## 1035 Password （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805454989803520)
