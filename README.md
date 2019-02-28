@@ -718,6 +718,41 @@ STL 中 map、string 的使用。
 
 **以用户 id 为数组索引节省运行时间。**
 
+## 1076 Forwards on Weibo （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805392092020736)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1076/main.cpp)
+
+### 解题思路
+
+BFS，不可用 DFS。
+
+在将 u 入队时即标记 u 被访问可以节省很多运行时间。若[此处代码](https://github.com/Heliovic/PAT_Solutions/blob/master/1076/main.cpp#L21)按以下方式编写，最后一个测试点超时。
+
+```cpp
+while (!q.empty())
+{
+    pair<int, int> p = q.front();
+    q.pop();
+    int v = p.first;
+    int level = p.second;
+    if (level >= L + 1)
+        return;
+    if (!visit[v])
+    {
+        if (level >= 1 && level <= L)
+            forward_cnt++;
+        visit[v] = true;
+        for (int i = 1; i <= N; i++)
+        {
+            if (!visit[i] && graph[v][i])
+                q.push(pair<int, int>(i, level + 1));
+        }
+    }
+}
+```
+
 ## 1077 Kuchiguse （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805390896644096)
