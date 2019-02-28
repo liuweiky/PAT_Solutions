@@ -686,6 +686,16 @@ STL 中 map、string 的使用。
 
 > 注意 ```tolower()、isalpha()、isdigit()``` 函数都来自头文件 ```cctype```。
 
+## 1072 Gas Station （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805396953219072)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1072/main.cpp)
+
+### 解题思路
+
+Dijkstra。
+
 ## 1073 Scientific Notation （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805395707510784)
