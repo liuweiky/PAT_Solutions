@@ -413,6 +413,24 @@ STL 的 vector、map 的使用。
 
 注意通过 ```ios::sync_with_stdio(false)``` 来提速 cin。**但这样 cin、cout 便不能再与 scanf、printf 混用。**
 
+## 1040 Longest Symmetric String （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805446102073344)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1040/main.cpp)
+
+### 解题思路
+
+动态规划，求最长回文子串。
+
+状态转移方程：
+```cpp
+if (dp[s + 1][t - 1] && str[s] == str[t])
+    dp[s][t] = true;
+else
+    dp[s][t] = false;
+```
+
 ## 1041 Be Unique （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805444361437184)
