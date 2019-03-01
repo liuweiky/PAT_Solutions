@@ -969,6 +969,16 @@ BFS。数据量过大使用 DFS 可能会爆栈。
 
 确定出所有的 'A' 所在位置中，左侧的 'P' 数目 pcnt 和右侧的 'T' 数目 tcnt 。以该 'A' 为中心形成的 "PAT" 数目即为 pcnt * tcnt。总的 "PAT" 数目为所有的 'A' 形成的 "PAT" 数目之和。
 
+## 1094 The Largest Generation （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805372601090048)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1094/main.cpp)
+
+### 解题思路
+
+树的遍历，DFS。
+
 ## 1095 Cars on Campus （30 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805371602845696)
