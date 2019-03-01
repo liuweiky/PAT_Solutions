@@ -439,6 +439,18 @@ STL 的 vector、map 的使用。
 
 二分查找。使用 ```chain_sum[i]``` 保存从第一个元素累加到第 i 个元素的值。```chain_sum[j] - chain_sum[i - 1]``` 即表示从第 i 个元素累加到第 j 个元素的值。这节省了重复累加的时间。
 
+## 1045 Favorite Color Stripe （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805437411475456)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1045/main.cpp)
+
+### 解题思路
+
+动态规划，求最长非降子序列。
+
+状态转移方程：```dp[i] = max(dp[i], dp[j] + 1), j = 0, 1,... ,i - 1 且 a[i] >= a[j]```。
+
 ## 1046 Shortest Distance （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805435700199424)
