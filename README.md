@@ -575,6 +575,16 @@ STL 中 stack 的使用。模拟堆栈入栈出栈过程。
 
 链表操作，简单问题简单做。
 
+## 1053 Path of Equal Weight （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805424153280512)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1053/main.cpp)
+
+### 解题思路
+
+树的遍历，DFS。
+
 ## 1054 The Dominant Color （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805422639136768)
