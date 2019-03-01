@@ -688,6 +688,18 @@ STL 中 queue 的使用。
 
 使用 [记忆化搜索](https://github.com/Heliovic/PAT_Solutions/blob/master/1067/main.cpp#L16) 保存上次搜到的最小不在其位置上的数，下次搜索时从该处而不是起始处开始查找。
 
+## 1068 Find More Coins （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805402305150976)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1068/main.cpp)
+
+[C++ (30/30) 一维 dp 数组](https://github.com/Heliovic/PAT_Solutions/blob/master/1068/main-1dim.cpp)
+
+### 解题思路
+
+0-1背包。
+
 ## 1069 The Black Hole of Numbers （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805400954585088)
