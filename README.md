@@ -447,6 +447,16 @@ else
 
 简单模拟。使用 stringstream 将 int 转为 string。
 
+## 1043 Is It a Binary Search Tree （25 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805440976633856)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1043/main.cpp)
+
+### 解题思路
+
+二叉查找树（BST）的创建、插入、遍历。
+
 ## 1044 Shopping in Mars （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805439202443264)
