@@ -857,6 +857,16 @@ while (!q.empty())
 
 根据堆栈进出序列递归构建二叉树。
 
+## 1087 All Roads Lead to Rome （30 分）
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805379664297984)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1087/main.cpp)
+
+### 解题思路
+
+Dijkstra + DFS 回溯所有最小等距路径。
+
 ## 1088 Rational Arithmetic （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805378443755520)
