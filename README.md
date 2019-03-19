@@ -691,6 +691,16 @@ STL 中 queue 的使用。
 
 在 printf 中使用 "%%" 输出 '%' 的符号 https://github.com/Heliovic/PAT_Solutions/blob/master/1063/main.cpp#L51
 
+## 1064 Complete Binary Search Tree （30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805409175420928)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1064/main.cpp)
+
+### 解题思路
+
+根据中根遍历序列填入二叉查找树。
+
 ## 1065 A+B and C (64bit) （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805406352654336)
