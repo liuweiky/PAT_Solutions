@@ -621,6 +621,16 @@ STL 中 map 的使用。
 
 STL 中 queue 的使用。
 
+## 1057 Stack （30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805417945710592)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1057/main.cpp)
+
+### 解题思路
+
+二分法，使用 vector 构建二分查找树。
+
 ## 1058 A+B in Hogwarts （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805416519647232)
