@@ -693,7 +693,7 @@ STL 中 queue 的使用。
 
 ## 1064 Complete Binary Search Tree （30 分)
 
-[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805409175420928)
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805407749357568)
 
 [C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1064/main.cpp)
 
@@ -715,7 +715,17 @@ STL 中 queue 的使用。
 	* 注意，这是不严谨的，因为题目中说明，a, b, c 的范围可以达到 `LONG_LONG_MAX + 1`，但测试用例可以通过。
 * **方法二**
 	* 大数加减法
-	
+
+## 1066 Root of AVL Tree （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805404939173888)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1066/main.cpp)
+
+### 解题思路
+
+[AVL树](https://github.com/Heliovic/AlgorithmSet/blob/master/AVLTree/main.cpp)
+
 ## 1067 Sort with Swap(0, i) （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805403651522560)
