@@ -1149,6 +1149,16 @@ DFS，回溯。注意，由于加法的可交换性，设本次 DFS 选择的 fa
 
 numbers[s] 前面有 s 个数字，对于这 s 个数字中的特定一个 numbers[k]，以 numbers[k] 为首形成的片段会累加 numbers[s] **N - s** （程序中为 t ）次，这是因为，numbers[s]及其之后有 N - s 个数，numbers[k] 为首形成的片段会使这 N - s 个数各作为结尾 1 次。其次，以numbers[s] 为首的片段也会累加 numbers[s] **N - s**。所以最后 numbers[s] 共被累加了 *s * t + t = (s + 1) * t* 次。
 
+## 1105 Spiral Matrix （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805363117768704)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1105/main.cpp)
+
+### 解题思路
+
+模拟。
+
 ## 1106 Lowest Price in Supply Chain （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805362341822464)
