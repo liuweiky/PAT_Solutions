@@ -1071,6 +1071,16 @@ BFS。数据量过大使用 DFS 可能会爆栈。
 
 链表去重，散列打表。
 
+## 1098 Insertion or Heap Sort （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805368847187968)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1098/main.cpp)
+
+### 解题思路
+
+堆排序过程。
+
 ## 1100 Mars Numbers （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805367156883456)
