@@ -1178,3 +1178,13 @@ numbers[s] 前面有 s 个数字，对于这 s 个数字中的特定一个 numbe
 ### 解题思路
 
 并查集，注意，若要保存集合内元素个数，[此处](https://github.com/Heliovic/PAT_Solutions/blob/master/1107/main.cpp#L20)必须这么写，否则会出错。
+
+## 1108 Finding Average （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805360777347072)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1108/main.cpp)
+
+### 解题思路
+
+字符串处理，注意利用 `scanf` 的返回值进行匹配。
