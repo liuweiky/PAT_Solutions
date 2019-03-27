@@ -1081,6 +1081,16 @@ BFS。数据量过大使用 DFS 可能会爆栈。
 
 堆排序过程。
 
+## 1099 Build A Binary Search Tree （30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805367987355648)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1099/main.cpp)
+
+### 解题思路
+
+根据树形和中根遍历序列确定每个节点上的 key。
+
 ## 1100 Mars Numbers （20 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805367156883456)
