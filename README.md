@@ -1188,3 +1188,13 @@ numbers[s] 前面有 s 个数字，对于这 s 个数字中的特定一个 numbe
 ### 解题思路
 
 字符串处理，注意利用 `scanf` 的返回值进行匹配。
+
+## 1109 Group Photo （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805360043343872)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1109/main.cpp)
+
+### 解题思路
+
+排序，模拟。
