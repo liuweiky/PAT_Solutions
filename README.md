@@ -895,6 +895,16 @@ while (!q.empty())
 
 排序、模拟。
 
+## 1081 Rational Sum （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805386161274880)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1081/main.cpp)
+
+### 解题思路
+
+分数四则运算。
+
 ## 1082 Read Number in Chinese （25 分）
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805385053978624)
