@@ -1234,3 +1234,13 @@ dijkstra + DFS。
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805357258326016)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1113/main.cpp)
+
+## 1114 Family Property （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805356599820288)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1114/main.cpp)
+
+### 解题思路
+
+DFS。
