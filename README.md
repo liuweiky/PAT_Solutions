@@ -1254,3 +1254,9 @@ DFS。
 ### 解题思路
 
 BST 的构建，DFS。
+
+## 1116 Come on! Let's C （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805355358306304)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1116/main.cpp)
