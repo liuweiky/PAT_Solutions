@@ -1228,3 +1228,9 @@ dijkstra + DFS。
 ### 解题思路
 
 打表，[注意审题](https://github.com/Heliovic/PAT_Solutions/blob/master/1112/main.cpp#L33)，必须出现 k 的倍数次才算是 stucked。
+
+## 1113 Integer Set Partition （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805357258326016)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1113/main.cpp)
