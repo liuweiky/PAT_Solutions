@@ -1244,3 +1244,13 @@ dijkstra + DFS。
 ### 解题思路
 
 DFS。
+
+## 1115 Counting Nodes in a BST （30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805355987451904)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1115/main.cpp)
+
+### 解题思路
+
+BST 的构建，DFS。
