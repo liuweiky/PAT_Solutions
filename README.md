@@ -1208,3 +1208,13 @@ numbers[s] 前面有 s 个数字，对于这 s 个数字中的特定一个 numbe
 ### 解题思路
 
 打表判断是否是完全二叉树。
+
+## 1111 Online Map （30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805358663417856)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1111/main.cpp)
+
+### 解题思路
+
+dijkstra + DFS。
