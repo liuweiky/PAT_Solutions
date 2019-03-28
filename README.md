@@ -1218,3 +1218,13 @@ numbers[s] 前面有 s 个数字，对于这 s 个数字中的特定一个 numbe
 ### 解题思路
 
 dijkstra + DFS。
+
+## 1112 Stucked Keyboard （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805357933608960)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1112/main.cpp)
+
+### 解题思路
+
+打表，[注意审题](https://github.com/Heliovic/PAT_Solutions/blob/master/1112/main.cpp#L33)，必须出现 k 的倍数次才算是 stucked。
