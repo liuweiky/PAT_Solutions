@@ -1306,3 +1306,13 @@ BST 的构建，DFS。
 ### 解题思路
 
 打表。
+
+## 1122 Hamiltonian Cycle （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805351814119424)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1122/main.cpp)
+
+### 解题思路
+
+哈密顿环的判断。
