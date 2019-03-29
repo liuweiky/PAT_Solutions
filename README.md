@@ -1260,3 +1260,9 @@ BST 的构建，DFS。
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805355358306304)
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1116/main.cpp)
+
+## 1117 Eddington Number （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805354762715136)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1117/main.cpp)
