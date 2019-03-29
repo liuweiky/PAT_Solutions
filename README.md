@@ -1266,3 +1266,13 @@ BST 的构建，DFS。
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805354762715136)
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1117/main.cpp)
+
+## 1118 Birds in Forest （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805354108403712)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1118/main.cpp)
+
+### 解题思路
+
+并查集。
