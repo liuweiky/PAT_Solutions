@@ -1296,3 +1296,13 @@ BST 的构建，DFS。
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805352925609984)
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1120/main.cpp)
+
+## 1121 Damn Single （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805352359378944)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1121/main.cpp)
+
+### 解题思路
+
+打表。
