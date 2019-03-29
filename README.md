@@ -1289,6 +1289,8 @@ BST 的构建，DFS。
 
 先通过先根遍历序列确定根节点。则先根遍历序列左数第二个元素是子树的根（左右无法确定）。之后到后根遍历序列中找这个子树的根。在后根遍历序列中，这个被找到的子树的根及其之前的都是新左子树的节点，子树的根之后的都是新右子树的节点。若这个根无法将剩余的序列划分成两个，说明左右子树无法确定。
 
+注意：此题若不在答案末尾加`'\n'`[换行](https://github.com/Heliovic/PAT_Solutions/blob/master/1119/main.cpp#L82)，则格式错误。
+
 ## 1120 Friend Numbers （20 分)
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805352925609984)
