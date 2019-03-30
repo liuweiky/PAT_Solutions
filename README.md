@@ -1316,3 +1316,13 @@ BST 的构建，DFS。
 ### 解题思路
 
 哈密顿环的判断。
+
+## 1123 Is It a Complete AVL Tree （30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805351302414336)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1123/main.cpp)
+
+### 解题思路
+
+AVL 树 + BFS 判断是否是完全二叉树。
