@@ -1326,3 +1326,9 @@ BST 的构建，DFS。
 ### 解题思路
 
 AVL 树 + BFS 判断是否是完全二叉树。
+
+## 1124 Raffle for Weibo Followers （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805350803292160)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1124/main.cpp)
