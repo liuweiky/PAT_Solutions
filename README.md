@@ -1332,3 +1332,13 @@ AVL 树 + BFS 判断是否是完全二叉树。
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805350803292160)
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1124/main.cpp)
+
+## 1125 Chain the Ropes （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805350316752896)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1125/main.cpp)
+
+### 解题思路
+
+贪心，越到后面加入到绳子中减半次数越少。
