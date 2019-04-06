@@ -1342,3 +1342,13 @@ AVL 树 + BFS 判断是否是完全二叉树。
 ### 解题思路
 
 贪心，越到后面加入到绳子中减半次数越少。
+
+## 1126 Eulerian Path （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805349851185152)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1126/main.cpp)
+
+### 解题思路
+
+注意使用 DFS 先判断是否是连通图。
