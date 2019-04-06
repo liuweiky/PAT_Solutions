@@ -1352,3 +1352,13 @@ AVL 树 + BFS 判断是否是完全二叉树。
 ### 解题思路
 
 注意使用 DFS 先判断是否是连通图。
+
+## 1127 ZigZagging on a Tree （30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805349394006016)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1127/main.cpp)
+
+### 解题思路
+
+二叉树重建，BFS。
