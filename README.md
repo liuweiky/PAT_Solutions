@@ -1362,3 +1362,13 @@ AVL 树 + BFS 判断是否是完全二叉树。
 ### 解题思路
 
 二叉树重建，BFS。
+
+## 1128 N Queens Puzzle （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805348915855360)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1128/main.cpp)
+
+### 解题思路
+
+N-Queens 可行解判断。
