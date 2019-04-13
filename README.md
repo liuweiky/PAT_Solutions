@@ -1391,3 +1391,20 @@ bool operator < (const item& rhs) const
     return id < rhs.id;
 }
 ```
+
+## 1130 Infix Expression （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805347921805312)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1130/main.cpp)
+
+### 解题思路
+
+树的遍历，中缀表达式的生成。若子节点为运算符，则在中根遍历子节点前与中根遍历子节点后要分别加上 '(' 和 ')'。
+
+判断是否是运算符：
+
+```cpp
+if (tree[lc].data.size() == 1 && !isalnum(tree[lc].data[0]))
+    //...
+```
