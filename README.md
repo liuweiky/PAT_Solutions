@@ -1372,3 +1372,22 @@ AVL 树 + BFS 判断是否是完全二叉树。
 ### 解题思路
 
 N-Queens 可行解判断。
+
+## 1129 Recommendation System （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805348471259136)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1129/main.cpp)
+
+### 解题思路
+
+map + set。注意利用 set 内部的有序性。需要重载 < 运算符：
+
+```cpp
+bool operator < (const item& rhs) const
+{
+    if (freq != rhs.freq)
+        return freq > rhs.freq;
+    return id < rhs.id;
+}
+```
