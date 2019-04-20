@@ -1432,3 +1432,15 @@ if (tree[lc].data.size() == 1 && !isalnum(tree[lc].data[0]))
 ### 解题思路
 
 字符串处理。
+
+## 1133 Splitting A Linked List （25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805346776760320)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1133/main.cpp)
+
+### 解题思路
+
+链表操作，简单问题简单做，不必真的改变指针进行排序。
+
+注意，这种题里的 N 时不可靠的，因为可能有节点不属于链表内。
