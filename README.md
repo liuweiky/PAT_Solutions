@@ -1422,3 +1422,13 @@ if (tree[lc].data.size() == 1 && !isalnum(tree[lc].data[0]))
 使用 [hash + map](https://github.com/Heliovic/PAT_Solutions/blob/master/1131/main.cpp#L15) 存储某条边所属线路。
 
 这种题编码时一定要高度集中注意力，稍有不慎就是一个 bug。
+
+## 1132 Cut Integer （20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805347145859072)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1132/main.cpp)
+
+### 解题思路
+
+字符串处理。
