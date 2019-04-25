@@ -1454,3 +1454,15 @@ if (tree[lc].data.size() == 1 && !isalnum(tree[lc].data[0]))
 ### 解题思路
 
 STL map、set、vector、pair。
+
+## 1135 Is It A Red-Black Tree (30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805346063728640)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1135/main.cpp)
+
+### 解题思路
+
+二叉查找树的建立。
+
+红黑树的第五条判断基于这样一个事实：对树上每个节点出发的两条简单路 BLACK 节点数相等，则从其兄弟节点出发的简单路径上的 BLACK 节点数也必与从该节点出发的简单路上 BLACK 节点数相等。
