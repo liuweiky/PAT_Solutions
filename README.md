@@ -1443,4 +1443,14 @@ if (tree[lc].data.size() == 1 && !isalnum(tree[lc].data[0]))
 
 链表操作，简单问题简单做，不必真的改变指针进行排序。
 
-注意，这种题里的 N 时不可靠的，因为可能有节点不属于链表内。
+注意，这种题里的 N 是不可靠的，因为可能有节点不属于链表内。
+
+## 1134 Vertex Cover (25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805346428633088)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1134/main.cpp)
+
+### 解题思路
+
+STL map、set、vector、pair。
