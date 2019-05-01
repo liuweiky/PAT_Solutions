@@ -1486,3 +1486,13 @@ STL map、set、vector、pair。
 ### 解题思路
 
 结构体排序，STL map 的使用。
+
+## 1138 Postorder Traversal (25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805345078067200)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1138/main.cpp)
+
+### 解题思路
+
+重建二叉树。
