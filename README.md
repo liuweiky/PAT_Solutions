@@ -1476,3 +1476,13 @@ STL map、set、vector、pair。
 ### 解题思路
 
 大数加法。
+
+## 1137 Final Grading (25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805345401028608)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1137/main.cpp)
+
+### 解题思路
+
+结构体排序，STL map 的使用。
