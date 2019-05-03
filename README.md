@@ -1506,3 +1506,13 @@ STL map、set、vector、pair。
 ### 解题思路
 
 BFS。注意 +0000 和 -0000。
+
+## 1140 Look-and-say Sequence (20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805344490864640)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1140/main.cpp)
+
+### 解题思路
+
+模拟。
