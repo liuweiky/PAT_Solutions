@@ -1516,3 +1516,25 @@ BFS。注意 +0000 和 -0000。
 ### 解题思路
 
 模拟。
+
+## 1141 PAT Ranking of Institutions (25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805344222429184)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1141/main.cpp)
+
+### 解题思路
+
+结构体排序。
+
+将 string 转为小写/大写：
+
+```cpp
+#include <algorithm>
+#include <string>
+
+string s1, s2;
+
+transform(s1.begin(), s1.end(), s1.begin(), ::tolower);
+transform(s2.begin(), s2.end(), s2.begin(), ::toupper);
+```
