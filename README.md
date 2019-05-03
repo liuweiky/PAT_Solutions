@@ -1496,3 +1496,13 @@ STL map、set、vector、pair。
 ### 解题思路
 
 重建二叉树。
+
+## 1139 First Contact (30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805344776077312)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1139/main.cpp)
+
+### 解题思路
+
+BFS。注意 +0000 和 -0000。
