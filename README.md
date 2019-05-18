@@ -1538,3 +1538,13 @@ string s1, s2;
 transform(s1.begin(), s1.end(), s1.begin(), ::tolower);
 transform(s2.begin(), s2.end(), s2.begin(), ::toupper);
 ```
+
+## 1142 Maximal Clique (25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805343979159552)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1142/main.cpp)
+
+### 解题思路
+
+根据定义判断即可。
