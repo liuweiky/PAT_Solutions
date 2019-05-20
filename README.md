@@ -1560,3 +1560,13 @@ transform(s2.begin(), s2.end(), s2.begin(), ::toupper);
 原以为需要建立二叉树，遍历求解，后来发现由于这是一颗二叉查找树，对于 s 和 t，易证得若在某个节点 r 上有 min(s, t) < r->key && max(s, t) > r->key，则说明 r 就是 s 和 t 的 LCA；若 s == r->key，则说明 s 是 t 的祖先；对 t 而言同理。
 
 后来发现这么做还超时。其实不必建立二叉树，因为原输入序列便是二叉查找树的遍历序列。
+
+## 1144 Lowest Common Ancestor (20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805343463260160)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1144/main.cpp)
+
+### 解题思路
+
+STL set 的使用。
