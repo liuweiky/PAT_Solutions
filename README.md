@@ -1580,3 +1580,13 @@ STL set 的使用。
 ### 解题思路
 
 二次探查法。注意，在搜索时，若 table[k] == -1，则应直接停止继续探查。
+
+## 1146 Topological Order (25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805343043829760)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1146/main.cpp)
+
+### 解题思路
+
+根据入度判断是否是拓扑序列。
