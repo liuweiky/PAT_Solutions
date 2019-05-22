@@ -1570,3 +1570,13 @@ transform(s2.begin(), s2.end(), s2.begin(), ::toupper);
 ### 解题思路
 
 STL set 的使用。
+
+## 1145 Hashing - Average Search Time (25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805343236767744)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1145/main.cpp)
+
+### 解题思路
+
+二次探查法。注意，在搜索时，若 table[k] == -1，则应直接停止继续探查。
