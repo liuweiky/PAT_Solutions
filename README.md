@@ -1590,3 +1590,13 @@ STL set 的使用。
 ### 解题思路
 
 根据入度判断是否是拓扑序列。
+
+## 1147 Heaps (30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805342821531648)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1147/main.cpp)
+
+### 解题思路
+
+堆的性质、判断。
