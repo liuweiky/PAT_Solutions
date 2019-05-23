@@ -1630,3 +1630,13 @@ STL set 的使用，若用 map 索引会超时。
 ### 解题思路
 
 根据条件判断即可。
+
+## 1151 LCA in a Binary Tree (30 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/1038430130011897856)
+
+[C++ (30/30)](https://github.com/Heliovic/PAT_Solutions/blob/master/1151/main.cpp)
+
+### 解题思路
+
+LCA 算法。
