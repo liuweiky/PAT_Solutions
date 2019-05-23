@@ -1600,3 +1600,13 @@ STL set 的使用。
 ### 解题思路
 
 堆的性质、判断。
+
+## 1148 Werewolf - Simple Version (20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/1038429808099098624)
+
+[C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1148/main.cpp)
+
+### 解题思路
+
+假设某两个是 Werewolf，判断是否满足条件即可。
