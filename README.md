@@ -1610,3 +1610,13 @@ STL set 的使用。
 ### 解题思路
 
 假设某两个是 Werewolf，判断是否满足条件即可。
+
+## 1149 Dangerous Goods Packaging (25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/1038429908921778176)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1149/main.cpp)
+
+### 解题思路
+
+STL set 的使用，若用 map 索引会超时。
