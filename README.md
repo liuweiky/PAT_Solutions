@@ -1620,3 +1620,13 @@ STL set 的使用。
 ### 解题思路
 
 STL set 的使用，若用 map 索引会超时。
+
+## 1150 Travelling Salesman Problem (25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/1038430013544464384)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1150/main.cpp)
+
+### 解题思路
+
+根据条件判断即可。
