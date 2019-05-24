@@ -1650,3 +1650,13 @@ LCA 算法。
 ### 解题思路
 
 质数判断 + 大数处理。
+
+## 1153 Decode Registration Card of PAT (25 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/1071785190929788928)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1153/main.cpp)
+
+### 解题思路
+
+使用 unordered_map，无序，但效率高于 map。使用 map 会超时。
