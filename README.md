@@ -1640,3 +1640,13 @@ STL set 的使用，若用 map 索引会超时。
 ### 解题思路
 
 LCA 算法。
+
+## 1152 Google Recruitment (20 分)
+
+[Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/1071785055080476672)
+
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1152/main.cpp)
+
+### 解题思路
+
+质数判断 + 大数处理。
