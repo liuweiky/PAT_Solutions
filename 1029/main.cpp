@@ -1,40 +1,59 @@
 #include <cstdio>
 #include <algorithm>
-#include <climits>
+#include <queue>
 
 using namespace std;
 
-int S1[200001];
-int S2[200001];
+priority_queue<int, vector<int>, greater<int> > q;
 
 int main()
 {
-    fill_n(S1, 200001, INT_MAX);
-    fill_n(S2, 200001, INT_MAX);
     int N1, N2;
 
     scanf("%d", &N1);
 
     for (int i = 0; i < N1; i++)
-        scanf("%d", &S1[i]);
+    {
+        int t;
+        scanf("%d", &t);
+        q.push(t);
+    }
 
     scanf("%d", &N2);
 
+    int poped_cnt = 0;
+    int med_pos = (N1 + N2 + 1) / 2;
+
     for (int i = 0; i < N2; i++)
-        scanf("%d", &S2[i]);
-
-    int mid_cnt = (N1 + N2 + 1) / 2;
-    int cnt = 0;
-    int median;
-    int i = 0, j = 0;
-
-    while (cnt != mid_cnt)
     {
-        if (S1[i] < S2[j])
-            median = S1[i++];
-        else
-            median = S2[j++];
-        cnt++;
+        int t;
+        scanf("%d", &t);
+        if (q.empty())
+        {
+            q.push(t);
+            continue;
+        }
+
+        while (!q.empty() && q.top() < t)
+        {
+            poped_cnt++;
+            if (med_pos == poped_cnt)
+            {
+                printf("%d", q.top());
+                return 0;
+            }
+            q.pop();
+        }
+        q.push(t);
+    }
+
+    int median;
+
+    while (poped_cnt < med_pos)
+    {
+        median = q.top();
+        q.pop();
+        poped_cnt++;
     }
 
     printf("%d", median);

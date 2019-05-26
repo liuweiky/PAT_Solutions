@@ -293,11 +293,11 @@ DFS。**非递归的 DFS 次数为连通分量数。**
 
 [Problem description](https://pintia.cn/problem-sets/994805342720868352/problems/994805466364755968)
 
-[C++ (22/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1030/main.cpp)
+[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1029/main.cpp)
 
 ### 解题思路
 
-Two Pointers。最后一个测试点内存超限。
+使用 priority_queue。队头总是当前已经读入的数中最小的。由于 median 处于 (N1 + N2 + 1) / 2 的位置，因此在读入数据过程中，只需弹出前 (N1 + N2 + 1) / 2 - 1 小的数后，队头就是所求。同时，边读数据边弹出小数防止内存超限。
 
 ## 1030 Travel Plan （30 分）
 
