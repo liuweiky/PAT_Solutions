@@ -80,6 +80,7 @@ int main()
     }
 
     sort(players.begin(), players.end(), cmp);
+    sort(vip_players.begin(), vip_players.end(), cmp);
 
     for (int i = 0; i < N; i++)
     {
@@ -93,7 +94,13 @@ int main()
             if (earliest_finish_time < players[i]->arriving_time_tag)
                 break;
             int t = tables[j].p == NULL ? tables[j].last_finish_time : tables[j].p->playing_time * 60 + tables[j].last_finish_time;
-            if (t < earliest_finish_time || (vip_players.size() > 0 && vip_players[0]->arriving_time_tag <= earliest_finish_time && !tables[earliest_finish_table].isvip && t == earliest_finish_time && tables[j].isvip))
+            if (t < earliest_finish_time ||
+                (vip_players.size() > 0 &&
+                 vip_players[0]->arriving_time_tag <= earliest_finish_time &&
+                 !tables[earliest_finish_table].isvip &&
+                 t == earliest_finish_time &&
+                 tables[j].isvip)
+                )
             {
                 earliest_finish_time = t;
                 earliest_finish_table = j;
