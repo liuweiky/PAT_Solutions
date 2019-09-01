@@ -1,75 +1,82 @@
 #include <cstdio>
+#include <vector>
 #include <queue>
+
+#define MAX_N 32
 
 using namespace std;
 
-struct Node
+struct node
 {
-    Node* left;
-    Node* right;
-    int data;
-    Node(){left = right = NULL;}
-    Node(int d): data(d) {left = right = NULL;}
+	int data;
+	node* lc;
+	node* rc;
+	node() { lc = rc = NULL; }
 };
 
-int node_num;
-int inorder[32];
-int postorder[32];
+int N;
+int postorder[MAX_N];
+int inorder[MAX_N];
+node* root = NULL;
+vector<int> ans;
 
-
-Node* rebuild(int post_from, int post_to, int in_from, int in_to)
+node* rebuild(int pl, int pr, int il, int ir)
 {
-    Node* root = new Node(postorder[post_to]);
-    for (int i = in_from; i <= in_to; i++)
-    {
-        if (root->data == inorder[i])
-        {
-            int left_count = i - in_from;
-            int right_count = in_to - i;
-            if (left_count == 0)
-                root->left = NULL;
-            else
-                root->left = rebuild(post_from, post_from + left_count - 1, in_from, i - 1);
-            if (right_count == 0)
-                root->right = NULL;
-            else
-                root->right = rebuild(post_from + left_count, post_to - 1, i + 1, in_to);
-        }
-    }
-    return root;
+	if (pl > pr || il > ir)
+		return NULL;
+
+	node* n = new node();
+	n->data = postorder[pr];
+
+	int k;
+
+	for (k = il; k <= ir; k++)
+		if (n->data == inorder[k])
+			break;
+
+	n->lc = rebuild(pl, k - il + pl - 1, il, k - 1);
+	n->rc = rebuild(k - il + pl, pr - 1, k + 1, ir);
+
+	return n;
 }
 
-void LevelOrder(Node* root)
+void level()
 {
-    queue<Node*> q;
-    q.push(root);
-    printf("%d", root->data);
-    while (!q.empty())
-    {
-        Node* n = q.front();
-        q.pop();
-        if (n->left != NULL)
-        {
-            printf(" %d", n->left->data);
-            q.push(n->left);
-        }
-        if (n->right != NULL)
-        {
-            printf(" %d", n->right->data);
-            q.push(n->right);
-        }
-    }
+	queue<node*> q;
+	q.push(root);
+
+	while (!q.empty())
+	{
+		node* r = q.front();
+		q.pop();
+		ans.push_back(r->data);
+		if (r->lc != NULL)
+			q.push(r->lc);
+		if (r->rc != NULL)
+			q.push(r->rc);
+	}
 }
 
 int main()
 {
-    scanf("%d", &node_num);
-    for (int i = 0; i < node_num; i++)
-        scanf("%d", &postorder[i]);
-    for (int i = 0; i < node_num; i++)
-        scanf("%d", &inorder[i]);
+	scanf("%d", &N);
 
-    Node* root = rebuild(0, node_num - 1, 0, node_num - 1);
-    LevelOrder(root);
-    return 0;
+	for (int i = 1; i <= N; i++)
+		scanf("%d", &postorder[i]);
+
+	for (int i = 1; i <= N; i++)
+		scanf("%d", &inorder[i]);
+
+	root = rebuild(1, N, 1, N);
+
+	level();
+
+	for (int i = 0; i < N; i++)
+	{
+		if (i != 0)
+			putchar(' ');
+		printf("%d", ans[i]);
+	}
+
+	return 0;
 }

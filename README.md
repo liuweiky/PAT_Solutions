@@ -27,7 +27,7 @@
 
 [C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1003/main.cpp)
 
-[C++ (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1003/main-heap.cpp)
+[C++ (25/25) - heap](https://github.com/Heliovic/PAT_Solutions/blob/master/1003/main-heap.cpp)
 
 [Java (25/25)](https://github.com/Heliovic/PAT_Solutions/blob/master/1003/Main.java)
 
