@@ -709,6 +709,8 @@ STL 中 queue 的使用。
 
 [C++ (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1065/main.cpp)
 
+[Java (20/20)](https://github.com/Heliovic/PAT_Solutions/blob/master/1065/Main.java)
+
 ### 解题思路
 
 * **方法一**
@@ -717,6 +719,9 @@ STL 中 queue 的使用。
 	* 注意，这是不严谨的，因为题目中说明，a, b, c 的范围可以达到 `LONG_LONG_MAX + 1`，但测试用例可以通过。
 * **方法二**
 	* 大数加减法
+
+* **方法三**
+	* [Java 大整数类](https://github.com/Heliovic/PAT_Solutions/blob/master/1065/Main.java)
 
 ## 1066 Root of AVL Tree （25 分)
 
